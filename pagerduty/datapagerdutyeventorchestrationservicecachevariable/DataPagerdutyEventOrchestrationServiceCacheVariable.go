@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyeventorchestrationservicecachevariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutyeventorchestrationservicecachevariable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyeventorchestrationservicecachevariable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
 type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() DataPagerdutyEventOrchestrationServiceCacheVariableConditionList
 	Configuration() DataPagerdutyEventOrchestrationServiceCacheVariableConfigurationList
 	// Experimental.
@@ -29,11 +29,11 @@ type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	Disabled() cdktf.IResolvable
+	Disabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,25 +42,25 @@ type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Service() *string
 	SetService(val *string)
 	ServiceInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -86,7 +86,7 @@ type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -111,11 +111,11 @@ type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 
 // The jsii proxy struct for DataPagerdutyEventOrchestrationServiceCacheVariable
 type jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) DependsO
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Disabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Disabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"disabled",
@@ -184,8 +184,8 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Disabled
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -234,8 +234,8 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) IdInput(
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -274,8 +274,8 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Node() c
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -314,8 +314,8 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) ServiceI
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationServiceCacheVariableConfig) DataPagerdutyEventOrchestrationServiceCacheVariable {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Con
 	j := jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationServiceCacheVariable_Override(d DataPagerdutyEventOrchestrationServiceCacheVariable, scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationServiceCacheVariableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetDepend
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetId(val
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetName(v
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -453,17 +453,17 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable)SetServic
 	)
 }
 
-// Generates CDKTF code for importing a DataPagerdutyEventOrchestrationServiceCacheVariable resource upon running "cdktf plan <stack-name>".
-func DataPagerdutyEventOrchestrationServiceCacheVariable_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataPagerdutyEventOrchestrationServiceCacheVariable resource upon running "cdktn plan <stack-name>".
+func DataPagerdutyEventOrchestrationServiceCacheVariable_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataPagerdutyEventOrchestrationServiceCacheVariable_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -498,7 +498,7 @@ func DataPagerdutyEventOrchestrationServiceCacheVariable_IsConstruct(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -517,7 +517,7 @@ func DataPagerdutyEventOrchestrationServiceCacheVariable_IsTerraformDataSource(x
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -536,7 +536,7 @@ func DataPagerdutyEventOrchestrationServiceCacheVariable_IsTerraformElement(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataPagerdutyEventOrchestrationServiceCacheVariable_TfResourceType() *strin
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationServiceCacheVariable.DataPagerdutyEventOrchestrationServiceCacheVariable",
 		"tfResourceType",
 		&returns,
 	)
@@ -583,11 +583,11 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -711,11 +711,11 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

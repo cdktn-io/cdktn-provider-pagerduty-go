@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestration",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestration",
 		reflect.TypeOf((*EventOrchestration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,20 +74,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestration{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationConfig",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationConfig",
 		reflect.TypeOf((*EventOrchestrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationIntegration",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationIntegration",
 		reflect.TypeOf((*EventOrchestrationIntegration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationList",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationList",
 		reflect.TypeOf((*EventOrchestrationIntegrationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,12 +104,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationOutputReference",
 		reflect.TypeOf((*EventOrchestrationIntegrationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,16 +139,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationParameters",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationParameters",
 		reflect.TypeOf((*EventOrchestrationIntegrationParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationParametersList",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationParametersList",
 		reflect.TypeOf((*EventOrchestrationIntegrationParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,12 +164,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationParametersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationParametersOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestration.EventOrchestrationIntegrationParametersOutputReference",
 		reflect.TypeOf((*EventOrchestrationIntegrationParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,7 +198,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

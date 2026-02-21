@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventOrchestrationServiceSetRuleActionsExtraction:
 		value := value.(*[]*EventOrchestrationServiceSetRuleActionsExtraction)
@@ -128,7 +128,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventOrchestrationServiceSetRuleActionsExtraction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventOrchestrationServiceSetRuleActionsExtraction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdate:
 		value := value.(*[]*EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdate)
@@ -159,7 +159,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventOrchestrationServiceSetRuleActionsVariable:
 		value := value.(*[]*EventOrchestrationServiceSetRuleActionsVariable)
@@ -201,14 +201,14 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventOrchestrationServiceSetRuleActionsVariable; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventOrchestrationServiceSetRuleActionsVariable; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -346,11 +346,11 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -373,7 +373,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -381,7 +381,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsOutputReference) valid
 	return nil
 }
 
-func validateNewEventOrchestrationServiceSetRuleActionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventOrchestrationServiceSetRuleActionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

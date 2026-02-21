@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rulesetrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/rulesetrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/rulesetrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RulesetRuleTimeFrameScheduledWeeklyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type RulesetRuleTimeFrameScheduledWeeklyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timezone() *string
 	SetTimezone(val *string)
 	TimezoneInput() *string
@@ -57,7 +57,7 @@ type RulesetRuleTimeFrameScheduledWeeklyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type RulesetRuleTimeFrameScheduledWeeklyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDuration()
 	ResetStartTime()
 	ResetTimezone()
 	ResetWeekdays()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type RulesetRuleTimeFrameScheduledWeeklyOutputReference interface {
 
 // The jsii proxy struct for RulesetRuleTimeFrameScheduledWeeklyOutputReference
 type jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) ComplexObjectIndex() interface{} {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) WeekdaysI
 }
 
 
-func NewRulesetRuleTimeFrameScheduledWeeklyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RulesetRuleTimeFrameScheduledWeeklyOutputReference {
+func NewRulesetRuleTimeFrameScheduledWeeklyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RulesetRuleTimeFrameScheduledWeeklyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRulesetRuleTimeFrameScheduledWeeklyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewRulesetRuleTimeFrameScheduledWeeklyOutputReference(terraformResource cdk
 	j := jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewRulesetRuleTimeFrameScheduledWeeklyOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewRulesetRuleTimeFrameScheduledWeeklyOutputReference_Override(r RulesetRuleTimeFrameScheduledWeeklyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRulesetRuleTimeFrameScheduledWeeklyOutputReference_Override(r RulesetRuleTimeFrameScheduledWeeklyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)
@@ -339,7 +339,7 @@ func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) GetAnyMap
 	return returns
 }
 
-func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -529,8 +529,8 @@ func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) GetString
 	return returns
 }
 
-func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -542,11 +542,11 @@ func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) Interpola
 	return returns
 }
 
-func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -590,7 +590,7 @@ func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) ResetWeek
 	)
 }
 
-func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

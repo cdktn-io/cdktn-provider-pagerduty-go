@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationunrouted
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/eventorchestrationunrouted/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/eventorchestrationunrouted/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventOrchestrationUnroutedSetRuleActionsExtractionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type EventOrchestrationUnroutedSetRuleActionsExtractionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type EventOrchestrationUnroutedSetRuleActionsExtractionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) EventOrchestrationUnroutedSetRuleActionsExtractionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type EventOrchestrationUnroutedSetRuleActionsExtractionList interface {
 
 // The jsii proxy struct for EventOrchestrationUnroutedSetRuleActionsExtractionList
 type jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) Terra
 	return returns
 }
 
-func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) Wraps
 }
 
 
-func NewEventOrchestrationUnroutedSetRuleActionsExtractionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventOrchestrationUnroutedSetRuleActionsExtractionList {
+func NewEventOrchestrationUnroutedSetRuleActionsExtractionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) EventOrchestrationUnroutedSetRuleActionsExtractionList {
 	_init_.Initialize()
 
 	if err := validateNewEventOrchestrationUnroutedSetRuleActionsExtractionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewEventOrchestrationUnroutedSetRuleActionsExtractionList(terraformResource
 	j := jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedSetRuleActionsExtractionList",
+		"@cdktn/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedSetRuleActionsExtractionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewEventOrchestrationUnroutedSetRuleActionsExtractionList(terraformResource
 	return &j
 }
 
-func NewEventOrchestrationUnroutedSetRuleActionsExtractionList_Override(e EventOrchestrationUnroutedSetRuleActionsExtractionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewEventOrchestrationUnroutedSetRuleActionsExtractionList_Override(e EventOrchestrationUnroutedSetRuleActionsExtractionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedSetRuleActionsExtractionList",
+		"@cdktn/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedSetRuleActionsExtractionList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList)SetTer
 	)
 }
 
-func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList)SetWra
 	)
 }
 
-func (e *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (e *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := e.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		e,
@@ -231,7 +231,7 @@ func (e *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) Get(i
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventOrchestrationUnroutedSetRuleActionsExtractionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertgroupingsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/alertgroupingsetting/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/alertgroupingsetting/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AlertGroupingSettingConfigAOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Aggregate() *string
 	SetAggregate(val *string)
 	AggregateInput() *string
@@ -46,9 +46,9 @@ type AlertGroupingSettingConfigAOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timeout() *float64
 	SetTimeout(val *float64)
 	TimeoutInput() *float64
@@ -60,7 +60,7 @@ type AlertGroupingSettingConfigAOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type AlertGroupingSettingConfigAOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAggregate()
 	ResetFields()
 	ResetIagFields()
@@ -86,7 +86,7 @@ type AlertGroupingSettingConfigAOutputReference interface {
 	ResetTimeWindow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type AlertGroupingSettingConfigAOutputReference interface {
 
 // The jsii proxy struct for AlertGroupingSettingConfigAOutputReference
 type jsiiProxy_AlertGroupingSettingConfigAOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference) Aggregate() *string {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference) TimeWindowInput()
 }
 
 
-func NewAlertGroupingSettingConfigAOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AlertGroupingSettingConfigAOutputReference {
+func NewAlertGroupingSettingConfigAOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AlertGroupingSettingConfigAOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAlertGroupingSettingConfigAOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -279,7 +279,7 @@ func NewAlertGroupingSettingConfigAOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_AlertGroupingSettingConfigAOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigAOutputReference",
+		"@cdktn/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -287,11 +287,11 @@ func NewAlertGroupingSettingConfigAOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewAlertGroupingSettingConfigAOutputReference_Override(a AlertGroupingSettingConfigAOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAlertGroupingSettingConfigAOutputReference_Override(a AlertGroupingSettingConfigAOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigAOutputReference",
+		"@cdktn/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigAOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -374,7 +374,7 @@ func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AlertGroupingSettingConfigAOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -564,8 +564,8 @@ func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -577,11 +577,11 @@ func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -633,7 +633,7 @@ func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) ResetTimeWindow()
 	)
 }
 
-func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AlertGroupingSettingConfigAOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

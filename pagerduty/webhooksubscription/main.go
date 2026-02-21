@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webhooksubscription
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscription",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscription",
 		reflect.TypeOf((*WebhookSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -78,24 +78,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscription{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionConfig",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionConfig",
 		reflect.TypeOf((*WebhookSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethod",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethod",
 		reflect.TypeOf((*WebhookSubscriptionDeliveryMethod)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodCustomHeader",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodCustomHeader",
 		reflect.TypeOf((*WebhookSubscriptionDeliveryMethodCustomHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodCustomHeaderList",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodCustomHeaderList",
 		reflect.TypeOf((*WebhookSubscriptionDeliveryMethodCustomHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,12 +112,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscriptionDeliveryMethodCustomHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodCustomHeaderOutputReference",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodCustomHeaderOutputReference",
 		reflect.TypeOf((*WebhookSubscriptionDeliveryMethodCustomHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,12 +148,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscriptionDeliveryMethodCustomHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodList",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodList",
 		reflect.TypeOf((*WebhookSubscriptionDeliveryMethodList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -170,12 +170,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscriptionDeliveryMethodList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodOutputReference",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodOutputReference",
 		reflect.TypeOf((*WebhookSubscriptionDeliveryMethodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,16 +215,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionFilter",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionFilter",
 		reflect.TypeOf((*WebhookSubscriptionFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionFilterList",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionFilterList",
 		reflect.TypeOf((*WebhookSubscriptionFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -241,12 +241,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscriptionFilterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionFilterOutputReference",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionFilterOutputReference",
 		reflect.TypeOf((*WebhookSubscriptionFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -278,7 +278,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_WebhookSubscriptionFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

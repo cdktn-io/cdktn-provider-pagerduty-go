@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecustomfield
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomField",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomField",
 		reflect.TypeOf((*ServiceCustomField)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,20 +83,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceCustomField{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomFieldConfig",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomFieldConfig",
 		reflect.TypeOf((*ServiceCustomFieldConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOption",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOption",
 		reflect.TypeOf((*ServiceCustomFieldFieldOption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionList",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionList",
 		reflect.TypeOf((*ServiceCustomFieldFieldOptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,12 +113,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceCustomFieldFieldOptionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionOutputReference",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionOutputReference",
 		reflect.TypeOf((*ServiceCustomFieldFieldOptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,7 +150,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceCustomFieldFieldOptionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

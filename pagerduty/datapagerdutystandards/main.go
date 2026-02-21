@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutystandards
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandards",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandards",
 		reflect.TypeOf((*DataPagerdutyStandards)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -54,24 +54,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandards{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsConfig",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsConfig",
 		reflect.TypeOf((*DataPagerdutyStandardsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandards",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandards",
 		reflect.TypeOf((*DataPagerdutyStandardsStandards)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsExclusions",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsExclusions",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsExclusionsList",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsExclusionsList",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -87,12 +87,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandardsStandardsExclusionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsExclusionsOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsExclusionsOutputReference",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -121,16 +121,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandardsStandardsExclusionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsInclusions",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsInclusions",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsInclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsInclusionsList",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsInclusionsList",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsInclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,12 +146,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandardsStandardsInclusionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsInclusionsOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsInclusionsOutputReference",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsInclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -180,12 +180,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandardsStandardsInclusionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsList",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsList",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -201,12 +201,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandardsStandardsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandards.DataPagerdutyStandardsStandardsOutputReference",
 		reflect.TypeOf((*DataPagerdutyStandardsStandardsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -241,7 +241,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyStandardsStandardsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

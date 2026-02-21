@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package incidentworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/incidentworkflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/incidentworkflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IncidentWorkflowStepInputList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type IncidentWorkflowStepInputList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type IncidentWorkflowStepInputList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) IncidentWorkflowStepInputOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type IncidentWorkflowStepInputList interface {
 
 // The jsii proxy struct for IncidentWorkflowStepInputList
 type jsiiProxy_IncidentWorkflowStepInputList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_IncidentWorkflowStepInputList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_IncidentWorkflowStepInputList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IncidentWorkflowStepInputList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IncidentWorkflowStepInputList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_IncidentWorkflowStepInputList) WrapsSet() *bool {
 }
 
 
-func NewIncidentWorkflowStepInputList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IncidentWorkflowStepInputList {
+func NewIncidentWorkflowStepInputList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) IncidentWorkflowStepInputList {
 	_init_.Initialize()
 
 	if err := validateNewIncidentWorkflowStepInputListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewIncidentWorkflowStepInputList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_IncidentWorkflowStepInputList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewIncidentWorkflowStepInputList(terraformResource cdktf.IInterpolatingPare
 	return &j
 }
 
-func NewIncidentWorkflowStepInputList_Override(i IncidentWorkflowStepInputList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewIncidentWorkflowStepInputList_Override(i IncidentWorkflowStepInputList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_IncidentWorkflowStepInputList)SetTerraformAttribute(val *stri
 	)
 }
 
-func (j *jsiiProxy_IncidentWorkflowStepInputList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IncidentWorkflowStepInputList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_IncidentWorkflowStepInputList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (i *jsiiProxy_IncidentWorkflowStepInputList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (i *jsiiProxy_IncidentWorkflowStepInputList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := i.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		i,
@@ -231,7 +231,7 @@ func (i *jsiiProxy_IncidentWorkflowStepInputList) Get(index *float64) IncidentWo
 	return returns
 }
 
-func (i *jsiiProxy_IncidentWorkflowStepInputList) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IncidentWorkflowStepInputList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

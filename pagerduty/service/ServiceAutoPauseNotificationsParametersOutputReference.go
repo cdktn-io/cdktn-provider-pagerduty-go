@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/service/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/service/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceAutoPauseNotificationsParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type ServiceAutoPauseNotificationsParametersOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timeout() *float64
 	SetTimeout(val *float64)
 	TimeoutInput() *float64
@@ -51,7 +51,7 @@ type ServiceAutoPauseNotificationsParametersOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type ServiceAutoPauseNotificationsParametersOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
 	ResetTimeout()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ServiceAutoPauseNotificationsParametersOutputReference interface {
 
 // The jsii proxy struct for ServiceAutoPauseNotificationsParametersOutputReference
 type jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) Timeo
 }
 
 
-func NewServiceAutoPauseNotificationsParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceAutoPauseNotificationsParametersOutputReference {
+func NewServiceAutoPauseNotificationsParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceAutoPauseNotificationsParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceAutoPauseNotificationsParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -207,7 +207,7 @@ func NewServiceAutoPauseNotificationsParametersOutputReference(terraformResource
 	j := jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.service.ServiceAutoPauseNotificationsParametersOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAutoPauseNotificationsParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -215,11 +215,11 @@ func NewServiceAutoPauseNotificationsParametersOutputReference(terraformResource
 	return &j
 }
 
-func NewServiceAutoPauseNotificationsParametersOutputReference_Override(s ServiceAutoPauseNotificationsParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceAutoPauseNotificationsParametersOutputReference_Override(s ServiceAutoPauseNotificationsParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.service.ServiceAutoPauseNotificationsParametersOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAutoPauseNotificationsParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)
@@ -280,7 +280,7 @@ func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) GetAn
 	return returns
 }
 
-func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,8 +459,8 @@ func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) GetSt
 	return returns
 }
 
-func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -472,11 +472,11 @@ func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) Inter
 	return returns
 }
 
-func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) Reset
 	)
 }
 
-func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

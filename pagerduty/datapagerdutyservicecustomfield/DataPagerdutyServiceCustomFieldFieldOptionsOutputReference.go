@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyservicecustomfield
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutyservicecustomfield/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyservicecustomfield/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataPagerdutyServiceCustomFieldFieldOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,16 +39,16 @@ type DataPagerdutyServiceCustomFieldFieldOptionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataPagerdutyServiceCustomFieldFieldOptionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataPagerdutyServiceCustomFieldFieldOptionsOutputReference interface {
 
 // The jsii proxy struct for DataPagerdutyServiceCustomFieldFieldOptionsOutputReference
 type jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) V
 }
 
 
-func NewDataPagerdutyServiceCustomFieldFieldOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataPagerdutyServiceCustomFieldFieldOptionsOutputReference {
+func NewDataPagerdutyServiceCustomFieldFieldOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataPagerdutyServiceCustomFieldFieldOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataPagerdutyServiceCustomFieldFieldOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -192,7 +192,7 @@ func NewDataPagerdutyServiceCustomFieldFieldOptionsOutputReference(terraformReso
 	j := jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomField.DataPagerdutyServiceCustomFieldFieldOptionsOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomField.DataPagerdutyServiceCustomFieldFieldOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -200,11 +200,11 @@ func NewDataPagerdutyServiceCustomFieldFieldOptionsOutputReference(terraformReso
 	return &j
 }
 
-func NewDataPagerdutyServiceCustomFieldFieldOptionsOutputReference_Override(d DataPagerdutyServiceCustomFieldFieldOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataPagerdutyServiceCustomFieldFieldOptionsOutputReference_Override(d DataPagerdutyServiceCustomFieldFieldOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomField.DataPagerdutyServiceCustomFieldFieldOptionsOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomField.DataPagerdutyServiceCustomFieldFieldOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataPagerdutyServiceCustomFieldFieldOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

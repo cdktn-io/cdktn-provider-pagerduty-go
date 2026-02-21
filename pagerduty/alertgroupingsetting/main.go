@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package alertgroupingsetting
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.alertGroupingSetting.AlertGroupingSetting",
+		"@cdktn/provider-pagerduty.alertGroupingSetting.AlertGroupingSetting",
 		reflect.TypeOf((*AlertGroupingSetting)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -55,6 +55,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConfig", GoMethod: "ResetConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "services", GoGetter: "Services"},
 			_jsii_.MemberProperty{JsiiProperty: "servicesInput", GoGetter: "ServicesInput"},
@@ -72,20 +73,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertGroupingSetting{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfig",
+		"@cdktn/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfig",
 		reflect.TypeOf((*AlertGroupingSettingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigA",
+		"@cdktn/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigA",
 		reflect.TypeOf((*AlertGroupingSettingConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigAOutputReference",
+		"@cdktn/provider-pagerduty.alertGroupingSetting.AlertGroupingSettingConfigAOutputReference",
 		reflect.TypeOf((*AlertGroupingSettingConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregate", GoGetter: "Aggregate"},
@@ -127,7 +128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AlertGroupingSettingConfigAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

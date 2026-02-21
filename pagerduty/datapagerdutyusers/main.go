@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyusers
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsers",
+		"@cdktn/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsers",
 		reflect.TypeOf((*DataPagerdutyUsers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -55,20 +55,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyUsers{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersConfig",
+		"@cdktn/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersConfig",
 		reflect.TypeOf((*DataPagerdutyUsersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersUsers",
+		"@cdktn/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersUsers",
 		reflect.TypeOf((*DataPagerdutyUsersUsers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersUsersList",
+		"@cdktn/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersUsersList",
 		reflect.TypeOf((*DataPagerdutyUsersUsersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -84,12 +84,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyUsersUsersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersUsersOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyUsers.DataPagerdutyUsersUsersOutputReference",
 		reflect.TypeOf((*DataPagerdutyUsersUsersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,7 +124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyUsersUsersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

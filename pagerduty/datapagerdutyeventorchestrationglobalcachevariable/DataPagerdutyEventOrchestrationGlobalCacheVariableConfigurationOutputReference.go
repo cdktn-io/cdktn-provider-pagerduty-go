@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyeventorchestrationglobalcachevariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutyeventorchestrationglobalcachevariable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyeventorchestrationglobalcachevariable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputRefere
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TtlSeconds() *float64
 	Type() *string
 	// Experimental.
@@ -50,7 +50,7 @@ type DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputRefere
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputRefere
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputRefere
 
 // The jsii proxy struct for DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference
 type jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 }
 
 
-func NewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference {
+func NewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputRef
 	j := jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationGlobalCacheVariable.DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationGlobalCacheVariable.DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -222,11 +222,11 @@ func NewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputRef
 	return &j
 }
 
-func NewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference_Override(d DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference_Override(d DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyEventOrchestrationGlobalCacheVariable.DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyEventOrchestrationGlobalCacheVariable.DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurati
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariableConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

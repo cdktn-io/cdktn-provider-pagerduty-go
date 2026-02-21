@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package incidenttypecustomfield
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentTypeCustomField.IncidentTypeCustomField",
+		"@cdktn/provider-pagerduty.incidentTypeCustomField.IncidentTypeCustomField",
 		reflect.TypeOf((*IncidentTypeCustomField)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,12 +85,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentTypeCustomField{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentTypeCustomField.IncidentTypeCustomFieldConfig",
+		"@cdktn/provider-pagerduty.incidentTypeCustomField.IncidentTypeCustomFieldConfig",
 		reflect.TypeOf((*IncidentTypeCustomFieldConfig)(nil)).Elem(),
 	)
 }

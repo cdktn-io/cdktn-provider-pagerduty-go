@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return nil
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return nil
 }
 
-func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return nil
 }
 
-func validateNewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutylicenses
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicenses",
+		"@cdktn/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicenses",
 		reflect.TypeOf((*DataPagerdutyLicenses)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -54,20 +54,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyLicenses{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesConfig",
+		"@cdktn/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesConfig",
 		reflect.TypeOf((*DataPagerdutyLicensesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesLicenses",
+		"@cdktn/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesLicenses",
 		reflect.TypeOf((*DataPagerdutyLicensesLicenses)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesLicensesList",
+		"@cdktn/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesLicensesList",
 		reflect.TypeOf((*DataPagerdutyLicensesLicensesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -83,12 +83,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyLicensesLicensesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesLicensesOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyLicenses.DataPagerdutyLicensesLicensesOutputReference",
 		reflect.TypeOf((*DataPagerdutyLicensesLicensesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationsAvailable", GoGetter: "AllocationsAvailable"},
@@ -126,7 +126,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyLicensesLicensesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

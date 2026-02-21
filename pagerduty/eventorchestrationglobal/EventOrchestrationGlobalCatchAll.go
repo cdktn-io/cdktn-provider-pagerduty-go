@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationglobal
@@ -7,7 +7,7 @@ package eventorchestrationglobal
 type EventOrchestrationGlobalCatchAll struct {
 	// actions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/event_orchestration_global#actions EventOrchestrationGlobal#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_global#actions EventOrchestrationGlobal#actions}
 	Actions *EventOrchestrationGlobalCatchAllActions `field:"required" json:"actions" yaml:"actions"`
 }
 

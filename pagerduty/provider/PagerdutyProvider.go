@@ -1,20 +1,20 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/provider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/provider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs pagerduty}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs pagerduty}.
 type PagerdutyProvider interface {
-	cdktf.TerraformProvider
+	cdktn.TerraformProvider
 	Alias() *string
 	SetAlias(val *string)
 	AliasInput() *string
@@ -22,7 +22,7 @@ type PagerdutyProvider interface {
 	SetApiUrlOverride(val *string)
 	ApiUrlOverrideInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -45,7 +45,7 @@ type PagerdutyProvider interface {
 	SetSkipCredentialsValidation(val interface{})
 	SkipCredentialsValidationInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformProviderSource() *string
 	// Experimental.
@@ -90,7 +90,7 @@ type PagerdutyProvider interface {
 
 // The jsii proxy struct for PagerdutyProvider
 type jsiiProxy_PagerdutyProvider struct {
-	internal.Type__cdktfTerraformProvider
+	internal.Type__cdktnTerraformProvider
 }
 
 func (j *jsiiProxy_PagerdutyProvider) Alias() *string {
@@ -133,8 +133,8 @@ func (j *jsiiProxy_PagerdutyProvider) ApiUrlOverrideInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PagerdutyProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PagerdutyProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_PagerdutyProvider) SkipCredentialsValidationInput() interface
 	return returns
 }
 
-func (j *jsiiProxy_PagerdutyProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PagerdutyProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -354,7 +354,7 @@ func (j *jsiiProxy_PagerdutyProvider) UserTokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs pagerduty} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs pagerduty} Resource.
 func NewPagerdutyProvider(scope constructs.Construct, id *string, config *PagerdutyProviderConfig) PagerdutyProvider {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewPagerdutyProvider(scope constructs.Construct, id *string, config *Pagerd
 	j := jsiiProxy_PagerdutyProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -372,12 +372,12 @@ func NewPagerdutyProvider(scope constructs.Construct, id *string, config *Pagerd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs pagerduty} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs pagerduty} Resource.
 func NewPagerdutyProvider_Override(p PagerdutyProvider, scope constructs.Construct, id *string, config *PagerdutyProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -456,17 +456,17 @@ func (j *jsiiProxy_PagerdutyProvider)SetUserToken(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a PagerdutyProvider resource upon running "cdktf plan <stack-name>".
-func PagerdutyProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PagerdutyProvider resource upon running "cdktn plan <stack-name>".
+func PagerdutyProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePagerdutyProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -501,7 +501,7 @@ func PagerdutyProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -520,7 +520,7 @@ func PagerdutyProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func PagerdutyProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func PagerdutyProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.provider.PagerdutyProvider",
+		"@cdktn/provider-pagerduty.provider.PagerdutyProvider",
 		"tfResourceType",
 		&returns,
 	)

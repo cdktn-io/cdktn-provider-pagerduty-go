@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webhooksubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/webhooksubscription/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/webhooksubscription/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WebhookSubscriptionDeliveryMethodOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type WebhookSubscriptionDeliveryMethodOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -56,7 +56,7 @@ type WebhookSubscriptionDeliveryMethodOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type WebhookSubscriptionDeliveryMethodOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCustomHeader(value interface{})
 	ResetCustomHeader()
 	ResetTemporarilyDisabled()
@@ -82,7 +82,7 @@ type WebhookSubscriptionDeliveryMethodOutputReference interface {
 	ResetUrl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type WebhookSubscriptionDeliveryMethodOutputReference interface {
 
 // The jsii proxy struct for WebhookSubscriptionDeliveryMethodOutputReference
 type jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) ComplexObjectIndex() interface{} {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) UrlInput() 
 }
 
 
-func NewWebhookSubscriptionDeliveryMethodOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WebhookSubscriptionDeliveryMethodOutputReference {
+func NewWebhookSubscriptionDeliveryMethodOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WebhookSubscriptionDeliveryMethodOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWebhookSubscriptionDeliveryMethodOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewWebhookSubscriptionDeliveryMethodOutputReference(terraformResource cdktf
 	j := jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodOutputReference",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewWebhookSubscriptionDeliveryMethodOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewWebhookSubscriptionDeliveryMethodOutputReference_Override(w WebhookSubscriptionDeliveryMethodOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWebhookSubscriptionDeliveryMethodOutputReference_Override(w WebhookSubscriptionDeliveryMethodOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodOutputReference",
+		"@cdktn/provider-pagerduty.webhookSubscription.WebhookSubscriptionDeliveryMethodOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		w,
 	)
@@ -328,7 +328,7 @@ func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -518,8 +518,8 @@ func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) GetStringMa
 	return returns
 }
 
-func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -531,11 +531,11 @@ func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) Interpolati
 	return returns
 }
 
-func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -590,7 +590,7 @@ func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) ResetUrl() 
 	)
 }
 
-func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

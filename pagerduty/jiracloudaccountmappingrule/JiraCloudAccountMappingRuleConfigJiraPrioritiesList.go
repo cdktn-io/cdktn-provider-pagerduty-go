@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package jiracloudaccountmappingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jiracloudaccountmappingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jiracloudaccountmappingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type JiraCloudAccountMappingRuleConfigJiraPrioritiesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type JiraCloudAccountMappingRuleConfigJiraPrioritiesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type JiraCloudAccountMappingRuleConfigJiraPrioritiesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type JiraCloudAccountMappingRuleConfigJiraPrioritiesList interface {
 
 // The jsii proxy struct for JiraCloudAccountMappingRuleConfigJiraPrioritiesList
 type jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) WrapsSet
 }
 
 
-func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) JiraCloudAccountMappingRuleConfigJiraPrioritiesList {
+func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) JiraCloudAccountMappingRuleConfigJiraPrioritiesList {
 	_init_.Initialize()
 
 	if err := validateNewJiraCloudAccountMappingRuleConfigJiraPrioritiesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesList(terraformResource cd
 	j := jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesList",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesList(terraformResource cd
 	return &j
 }
 
-func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesList_Override(j JiraCloudAccountMappingRuleConfigJiraPrioritiesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesList_Override(j JiraCloudAccountMappingRuleConfigJiraPrioritiesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesList",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		j,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList)SetWrapsS
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := j.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		j,
@@ -231,7 +231,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) Get(inde
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := j.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

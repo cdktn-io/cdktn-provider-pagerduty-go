@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package maintenancewindow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.maintenanceWindow.MaintenanceWindow",
+		"@cdktn/provider-pagerduty.maintenanceWindow.MaintenanceWindow",
 		reflect.TypeOf((*MaintenanceWindow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -70,12 +70,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MaintenanceWindow{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.maintenanceWindow.MaintenanceWindowConfig",
+		"@cdktn/provider-pagerduty.maintenanceWindow.MaintenanceWindowConfig",
 		reflect.TypeOf((*MaintenanceWindowConfig)(nil)).Elem(),
 	)
 }

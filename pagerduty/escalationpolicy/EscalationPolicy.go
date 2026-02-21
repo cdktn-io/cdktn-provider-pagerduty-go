@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package escalationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/escalationpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/escalationpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/escalation_policy pagerduty_escalation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/escalation_policy pagerduty_escalation_policy}.
 type EscalationPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type EscalationPolicy interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type EscalationPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -58,9 +58,9 @@ type EscalationPolicy interface {
 	SetNumLoops(val *float64)
 	NumLoopsInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,7 +73,7 @@ type EscalationPolicy interface {
 	SetTeams(val *[]*string)
 	TeamsInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type EscalationPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type EscalationPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type EscalationPolicy interface {
 
 // The jsii proxy struct for EscalationPolicy
 type jsiiProxy_EscalationPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_EscalationPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EscalationPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_EscalationPolicy) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EscalationPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EscalationPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_EscalationPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EscalationPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EscalationPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_EscalationPolicy) NumLoopsInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_EscalationPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EscalationPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_EscalationPolicy) TeamsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_EscalationPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EscalationPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -428,7 +428,7 @@ func (j *jsiiProxy_EscalationPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/escalation_policy pagerduty_escalation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/escalation_policy pagerduty_escalation_policy} Resource.
 func NewEscalationPolicy(scope constructs.Construct, id *string, config *EscalationPolicyConfig) EscalationPolicy {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewEscalationPolicy(scope constructs.Construct, id *string, config *Escalat
 	j := jsiiProxy_EscalationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewEscalationPolicy(scope constructs.Construct, id *string, config *Escalat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/escalation_policy pagerduty_escalation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/escalation_policy pagerduty_escalation_policy} Resource.
 func NewEscalationPolicy_Override(e EscalationPolicy, scope constructs.Construct, id *string, config *EscalationPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -498,7 +498,7 @@ func (j *jsiiProxy_EscalationPolicy)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EscalationPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EscalationPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -517,7 +517,7 @@ func (j *jsiiProxy_EscalationPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EscalationPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EscalationPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_EscalationPolicy)SetNumLoops(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_EscalationPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EscalationPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -580,17 +580,17 @@ func (j *jsiiProxy_EscalationPolicy)SetTeams(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a EscalationPolicy resource upon running "cdktf plan <stack-name>".
-func EscalationPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EscalationPolicy resource upon running "cdktn plan <stack-name>".
+func EscalationPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEscalationPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func EscalationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func EscalationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func EscalationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func EscalationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		"tfResourceType",
 		&returns,
 	)
@@ -721,11 +721,11 @@ func (e *jsiiProxy_EscalationPolicy) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (e *jsiiProxy_EscalationPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EscalationPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -862,7 +862,7 @@ func (e *jsiiProxy_EscalationPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_EscalationPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EscalationPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -873,11 +873,11 @@ func (e *jsiiProxy_EscalationPolicy) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (e *jsiiProxy_EscalationPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EscalationPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

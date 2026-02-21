@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecustomfield
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/servicecustomfield/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/servicecustomfield/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceCustomFieldFieldOptionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type ServiceCustomFieldFieldOptionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -52,7 +52,7 @@ type ServiceCustomFieldFieldOptionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type ServiceCustomFieldFieldOptionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ServiceCustomFieldFieldOptionOutputReference interface {
 
 // The jsii proxy struct for ServiceCustomFieldFieldOptionOutputReference
 type jsiiProxy_ServiceCustomFieldFieldOptionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) ComplexObjectIndex() interface{} {
@@ -176,8 +176,8 @@ func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -207,7 +207,7 @@ func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) ValueInput() *s
 }
 
 
-func NewServiceCustomFieldFieldOptionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ServiceCustomFieldFieldOptionOutputReference {
+func NewServiceCustomFieldFieldOptionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ServiceCustomFieldFieldOptionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceCustomFieldFieldOptionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -216,7 +216,7 @@ func NewServiceCustomFieldFieldOptionOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_ServiceCustomFieldFieldOptionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionOutputReference",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -224,11 +224,11 @@ func NewServiceCustomFieldFieldOptionOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewServiceCustomFieldFieldOptionOutputReference_Override(s ServiceCustomFieldFieldOptionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewServiceCustomFieldFieldOptionOutputReference_Override(s ServiceCustomFieldFieldOptionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionOutputReference",
+		"@cdktn/provider-pagerduty.serviceCustomField.ServiceCustomFieldFieldOptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -340,11 +340,11 @@ func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -468,8 +468,8 @@ func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -481,11 +481,11 @@ func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -497,7 +497,7 @@ func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) InterpolationFo
 	return returns
 }
 
-func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceCustomFieldFieldOptionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

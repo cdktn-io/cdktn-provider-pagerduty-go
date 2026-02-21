@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package responseplay
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlay",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlay",
 		reflect.TypeOf((*ResponsePlay)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,24 +97,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlay{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayConfig",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayConfig",
 		reflect.TypeOf((*ResponsePlayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponder",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponder",
 		reflect.TypeOf((*ResponsePlayResponder)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRule",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRule",
 		reflect.TypeOf((*ResponsePlayResponderEscalationRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleList",
 		reflect.TypeOf((*ResponsePlayResponderEscalationRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,12 +130,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderEscalationRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleOutputReference",
 		reflect.TypeOf((*ResponsePlayResponderEscalationRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,16 +165,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderEscalationRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTarget",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTarget",
 		reflect.TypeOf((*ResponsePlayResponderEscalationRuleTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetList",
 		reflect.TypeOf((*ResponsePlayResponderEscalationRuleTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -190,12 +190,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderEscalationRuleTargetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetOutputReference",
 		reflect.TypeOf((*ResponsePlayResponderEscalationRuleTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,12 +224,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderList",
 		reflect.TypeOf((*ResponsePlayResponderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -246,12 +246,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderOutputReference",
 		reflect.TypeOf((*ResponsePlayResponderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -295,16 +295,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderService",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderService",
 		reflect.TypeOf((*ResponsePlayResponderService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderServiceList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderServiceList",
 		reflect.TypeOf((*ResponsePlayResponderServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -320,12 +320,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderServiceOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderServiceOutputReference",
 		reflect.TypeOf((*ResponsePlayResponderServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,16 +354,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderTeam",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderTeam",
 		reflect.TypeOf((*ResponsePlayResponderTeam)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderTeamList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderTeamList",
 		reflect.TypeOf((*ResponsePlayResponderTeamList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -379,12 +379,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderTeamList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderTeamOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderTeamOutputReference",
 		reflect.TypeOf((*ResponsePlayResponderTeamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -413,16 +413,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlayResponderTeamOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlaySubscriber",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlaySubscriber",
 		reflect.TypeOf((*ResponsePlaySubscriber)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlaySubscriberList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlaySubscriberList",
 		reflect.TypeOf((*ResponsePlaySubscriberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -439,12 +439,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlaySubscriberList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlaySubscriberOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlaySubscriberOutputReference",
 		reflect.TypeOf((*ResponsePlaySubscriberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -477,7 +477,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResponsePlaySubscriberOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

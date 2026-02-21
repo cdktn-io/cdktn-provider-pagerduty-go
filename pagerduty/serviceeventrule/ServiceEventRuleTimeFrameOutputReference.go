@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceeventrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/serviceeventrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/serviceeventrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceEventRuleTimeFrameOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveBetween() ServiceEventRuleTimeFrameActiveBetweenList
 	ActiveBetweenInput() interface{}
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type ServiceEventRuleTimeFrameOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type ServiceEventRuleTimeFrameOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActiveBetween(value interface{})
 	PutScheduledWeekly(value interface{})
 	ResetActiveBetween()
 	ResetScheduledWeekly()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ServiceEventRuleTimeFrameOutputReference interface {
 
 // The jsii proxy struct for ServiceEventRuleTimeFrameOutputReference
 type jsiiProxy_ServiceEventRuleTimeFrameOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) ActiveBetween() ServiceEventRuleTimeFrameActiveBetweenList {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) TerraformResource()
 }
 
 
-func NewServiceEventRuleTimeFrameOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceEventRuleTimeFrameOutputReference {
+func NewServiceEventRuleTimeFrameOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceEventRuleTimeFrameOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceEventRuleTimeFrameOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -207,7 +207,7 @@ func NewServiceEventRuleTimeFrameOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_ServiceEventRuleTimeFrameOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.serviceEventRule.ServiceEventRuleTimeFrameOutputReference",
+		"@cdktn/provider-pagerduty.serviceEventRule.ServiceEventRuleTimeFrameOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -215,11 +215,11 @@ func NewServiceEventRuleTimeFrameOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewServiceEventRuleTimeFrameOutputReference_Override(s ServiceEventRuleTimeFrameOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceEventRuleTimeFrameOutputReference_Override(s ServiceEventRuleTimeFrameOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.serviceEventRule.ServiceEventRuleTimeFrameOutputReference",
+		"@cdktn/provider-pagerduty.serviceEventRule.ServiceEventRuleTimeFrameOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceEventRuleTimeFrameOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,8 +437,8 @@ func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -450,11 +450,11 @@ func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) InterpolationAsList
 	return returns
 }
 
-func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) ResetScheduledWeekl
 	)
 }
 
-func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceEventRuleTimeFrameOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

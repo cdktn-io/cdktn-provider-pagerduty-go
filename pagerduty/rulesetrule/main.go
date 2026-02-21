@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rulesetrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRule",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRule",
 		reflect.TypeOf((*RulesetRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -88,20 +88,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActions",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActions",
 		reflect.TypeOf((*RulesetRuleActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsAnnotate",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsAnnotate",
 		reflect.TypeOf((*RulesetRuleActionsAnnotate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsAnnotateList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsAnnotateList",
 		reflect.TypeOf((*RulesetRuleActionsAnnotateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,12 +118,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsAnnotateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsAnnotateOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsAnnotateOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsAnnotateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,16 +153,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsAnnotateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsEventAction",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsEventAction",
 		reflect.TypeOf((*RulesetRuleActionsEventAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsEventActionList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsEventActionList",
 		reflect.TypeOf((*RulesetRuleActionsEventActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -179,12 +179,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsEventActionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsEventActionOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsEventActionOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsEventActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -214,16 +214,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsEventActionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsExtractions",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsExtractions",
 		reflect.TypeOf((*RulesetRuleActionsExtractions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsExtractionsList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsExtractionsList",
 		reflect.TypeOf((*RulesetRuleActionsExtractionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -240,12 +240,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsExtractionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsExtractionsOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsExtractionsOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsExtractionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -284,12 +284,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsExtractionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotate", GoGetter: "Annotate"},
@@ -348,16 +348,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsPriority",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsPriority",
 		reflect.TypeOf((*RulesetRuleActionsPriority)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsPriorityList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsPriorityList",
 		reflect.TypeOf((*RulesetRuleActionsPriorityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -374,12 +374,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsPriorityList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsPriorityOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsPriorityOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsPriorityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -409,16 +409,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsPriorityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsRoute",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsRoute",
 		reflect.TypeOf((*RulesetRuleActionsRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteList",
 		reflect.TypeOf((*RulesetRuleActionsRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -435,12 +435,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsRouteList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -470,16 +470,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsRouteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSeverity",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSeverity",
 		reflect.TypeOf((*RulesetRuleActionsSeverity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSeverityList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSeverityList",
 		reflect.TypeOf((*RulesetRuleActionsSeverityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -496,12 +496,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsSeverityList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSeverityOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSeverityOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsSeverityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -531,16 +531,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsSeverityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSuppress",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSuppress",
 		reflect.TypeOf((*RulesetRuleActionsSuppress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSuppressList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSuppressList",
 		reflect.TypeOf((*RulesetRuleActionsSuppressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -557,12 +557,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsSuppressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSuppressOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSuppressOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsSuppressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -601,16 +601,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsSuppressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSuspend",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSuspend",
 		reflect.TypeOf((*RulesetRuleActionsSuspend)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSuspendList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSuspendList",
 		reflect.TypeOf((*RulesetRuleActionsSuspendList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -627,12 +627,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsSuspendList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsSuspendOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsSuspendOutputReference",
 		reflect.TypeOf((*RulesetRuleActionsSuspendOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -662,16 +662,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleActionsSuspendOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditions",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditions",
 		reflect.TypeOf((*RulesetRuleConditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsOutputReference",
 		reflect.TypeOf((*RulesetRuleConditionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -705,16 +705,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleConditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditions",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditions",
 		reflect.TypeOf((*RulesetRuleConditionsSubconditions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsList",
 		reflect.TypeOf((*RulesetRuleConditionsSubconditionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -731,12 +731,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleConditionsSubconditionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsOutputReference",
 		reflect.TypeOf((*RulesetRuleConditionsSubconditionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -770,16 +770,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleConditionsSubconditionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsParameter",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsParameter",
 		reflect.TypeOf((*RulesetRuleConditionsSubconditionsParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsParameterList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsParameterList",
 		reflect.TypeOf((*RulesetRuleConditionsSubconditionsParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -796,12 +796,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleConditionsSubconditionsParameterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsParameterOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConditionsSubconditionsParameterOutputReference",
 		reflect.TypeOf((*RulesetRuleConditionsSubconditionsParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -834,24 +834,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleConditionsSubconditionsParameterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleConfig",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleConfig",
 		reflect.TypeOf((*RulesetRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrame",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrame",
 		reflect.TypeOf((*RulesetRuleTimeFrame)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameActiveBetween",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameActiveBetween",
 		reflect.TypeOf((*RulesetRuleTimeFrameActiveBetween)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameActiveBetweenList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameActiveBetweenList",
 		reflect.TypeOf((*RulesetRuleTimeFrameActiveBetweenList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -868,12 +868,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleTimeFrameActiveBetweenList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameActiveBetweenOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameActiveBetweenOutputReference",
 		reflect.TypeOf((*RulesetRuleTimeFrameActiveBetweenOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -906,12 +906,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleTimeFrameActiveBetweenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameOutputReference",
 		reflect.TypeOf((*RulesetRuleTimeFrameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeBetween", GoGetter: "ActiveBetween"},
@@ -946,16 +946,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleTimeFrameOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeekly",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeekly",
 		reflect.TypeOf((*RulesetRuleTimeFrameScheduledWeekly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyList",
 		reflect.TypeOf((*RulesetRuleTimeFrameScheduledWeeklyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -972,12 +972,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleTimeFrameScheduledWeeklyOutputReference",
 		reflect.TypeOf((*RulesetRuleTimeFrameScheduledWeeklyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1016,16 +1016,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleTimeFrameScheduledWeeklyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleVariable",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleVariable",
 		reflect.TypeOf((*RulesetRuleVariable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleVariableList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleVariableList",
 		reflect.TypeOf((*RulesetRuleVariableList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1042,12 +1042,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleVariableList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleVariableOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleVariableOutputReference",
 		reflect.TypeOf((*RulesetRuleVariableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1084,16 +1084,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleVariableOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleVariableParameters",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleVariableParameters",
 		reflect.TypeOf((*RulesetRuleVariableParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleVariableParametersList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleVariableParametersList",
 		reflect.TypeOf((*RulesetRuleVariableParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1110,12 +1110,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleVariableParametersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleVariableParametersOutputReference",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleVariableParametersOutputReference",
 		reflect.TypeOf((*RulesetRuleVariableParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1148,7 +1148,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_RulesetRuleVariableParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

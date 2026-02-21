@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationglobal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/eventorchestrationglobal/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/eventorchestrationglobal/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoSend() interface{}
 	SetAutoSend(val interface{})
 	AutoSendInput() interface{}
@@ -47,9 +47,9 @@ type EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TriggerTypes() *[]*string
 	SetTriggerTypes(val *[]*string)
 	TriggerTypesInput() *[]*string
@@ -61,7 +61,7 @@ type EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference inte
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeader(value interface{})
 	PutParameter(value interface{})
 	ResetAutoSend()
@@ -88,7 +88,7 @@ type EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference inte
 	ResetTriggerTypes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference inte
 
 // The jsii proxy struct for EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference
 type jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) AutoSend() interface{} {
@@ -241,8 +241,8 @@ func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 	return returns
 }
 
-func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -292,7 +292,7 @@ func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 }
 
 
-func NewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference {
+func NewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -301,7 +301,7 @@ func NewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference(t
 	j := jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationGlobal.EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationGlobal.EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -309,11 +309,11 @@ func NewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference(t
 	return &j
 }
 
-func NewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference_Override(e EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference_Override(e EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationGlobal.EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationGlobal.EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)
@@ -385,7 +385,7 @@ func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 	)
 }
 
-func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -447,11 +447,11 @@ func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -575,8 +575,8 @@ func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -588,11 +588,11 @@ func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -658,7 +658,7 @@ func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutput
 	)
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventOrchestrationGlobalCatchAllActionsAutomationActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package usernotificationrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.userNotificationRule.UserNotificationRule",
+		"@cdktn/provider-pagerduty.userNotificationRule.UserNotificationRule",
 		reflect.TypeOf((*UserNotificationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -68,20 +68,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_UserNotificationRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.userNotificationRule.UserNotificationRuleConfig",
+		"@cdktn/provider-pagerduty.userNotificationRule.UserNotificationRuleConfig",
 		reflect.TypeOf((*UserNotificationRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.userNotificationRule.UserNotificationRuleContactMethod",
+		"@cdktn/provider-pagerduty.userNotificationRule.UserNotificationRuleContactMethod",
 		reflect.TypeOf((*UserNotificationRuleContactMethod)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.userNotificationRule.UserNotificationRuleContactMethodOutputReference",
+		"@cdktn/provider-pagerduty.userNotificationRule.UserNotificationRuleContactMethodOutputReference",
 		reflect.TypeOf((*UserNotificationRuleContactMethodOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -112,7 +112,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_UserNotificationRuleContactMethodOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

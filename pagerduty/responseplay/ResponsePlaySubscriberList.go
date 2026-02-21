@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package responseplay
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/responseplay/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/responseplay/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ResponsePlaySubscriberList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ResponsePlaySubscriberList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ResponsePlaySubscriberList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ResponsePlaySubscriberOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ResponsePlaySubscriberList interface {
 
 // The jsii proxy struct for ResponsePlaySubscriberList
 type jsiiProxy_ResponsePlaySubscriberList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ResponsePlaySubscriberList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ResponsePlaySubscriberList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResponsePlaySubscriberList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ResponsePlaySubscriberList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ResponsePlaySubscriberList) WrapsSet() *bool {
 }
 
 
-func NewResponsePlaySubscriberList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ResponsePlaySubscriberList {
+func NewResponsePlaySubscriberList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ResponsePlaySubscriberList {
 	_init_.Initialize()
 
 	if err := validateNewResponsePlaySubscriberListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewResponsePlaySubscriberList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_ResponsePlaySubscriberList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlaySubscriberList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlaySubscriberList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewResponsePlaySubscriberList(terraformResource cdktf.IInterpolatingParent,
 	return &j
 }
 
-func NewResponsePlaySubscriberList_Override(r ResponsePlaySubscriberList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewResponsePlaySubscriberList_Override(r ResponsePlaySubscriberList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlaySubscriberList",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlaySubscriberList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ResponsePlaySubscriberList)SetTerraformAttribute(val *string)
 	)
 }
 
-func (j *jsiiProxy_ResponsePlaySubscriberList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ResponsePlaySubscriberList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ResponsePlaySubscriberList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (r *jsiiProxy_ResponsePlaySubscriberList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (r *jsiiProxy_ResponsePlaySubscriberList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := r.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		r,
@@ -231,7 +231,7 @@ func (r *jsiiProxy_ResponsePlaySubscriberList) Get(index *float64) ResponsePlayS
 	return returns
 }
 
-func (r *jsiiProxy_ResponsePlaySubscriberList) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ResponsePlaySubscriberList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

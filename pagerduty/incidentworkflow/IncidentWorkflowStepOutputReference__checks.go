@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validatePutInlineStepsIn
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IncidentWorkflowStepInlineStepsInput:
 		value := value.(*[]*IncidentWorkflowStepInlineStepsInput)
@@ -117,7 +117,7 @@ func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validatePutInlineStepsIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IncidentWorkflowStepInlineStepsInput; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IncidentWorkflowStepInlineStepsInput; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validatePutInputParamete
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IncidentWorkflowStepInput:
 		value := value.(*[]*IncidentWorkflowStepInput)
@@ -148,14 +148,14 @@ func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validatePutInputParamete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*IncidentWorkflowStepInput; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*IncidentWorkflowStepInput; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IncidentWorkflowStepOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetComplexObject
 
 func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *IncidentWorkflowStep:
 		val := val.(*IncidentWorkflowStep)
@@ -253,7 +253,7 @@ func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetInternalValue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *IncidentWorkflowStep; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *IncidentWorkflowStep; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -276,7 +276,7 @@ func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -284,7 +284,7 @@ func (j *jsiiProxy_IncidentWorkflowStepOutputReference) validateSetTerraformReso
 	return nil
 }
 
-func validateNewIncidentWorkflowStepOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIncidentWorkflowStepOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

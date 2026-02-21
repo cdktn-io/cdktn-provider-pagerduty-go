@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (e *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputRef
 	return nil
 }
 
-func (e *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputRef
 	return nil
 }
 
-func validateNewEscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

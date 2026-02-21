@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package incidentworkflowtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/incidentworkflowtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/incidentworkflowtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IncidentWorkflowTriggerPermissionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type IncidentWorkflowTriggerPermissionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type IncidentWorkflowTriggerPermissionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRestricted()
 	ResetTeamId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type IncidentWorkflowTriggerPermissionsOutputReference interface {
 
 // The jsii proxy struct for IncidentWorkflowTriggerPermissionsOutputReference
 type jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) TerraformR
 }
 
 
-func NewIncidentWorkflowTriggerPermissionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IncidentWorkflowTriggerPermissionsOutputReference {
+func NewIncidentWorkflowTriggerPermissionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IncidentWorkflowTriggerPermissionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIncidentWorkflowTriggerPermissionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -207,7 +207,7 @@ func NewIncidentWorkflowTriggerPermissionsOutputReference(terraformResource cdkt
 	j := jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTriggerPermissionsOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTriggerPermissionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -215,11 +215,11 @@ func NewIncidentWorkflowTriggerPermissionsOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewIncidentWorkflowTriggerPermissionsOutputReference_Override(i IncidentWorkflowTriggerPermissionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIncidentWorkflowTriggerPermissionsOutputReference_Override(i IncidentWorkflowTriggerPermissionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTriggerPermissionsOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTriggerPermissionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)
@@ -291,7 +291,7 @@ func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) GetAnyMapA
 	return returns
 }
 
-func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -459,8 +459,8 @@ func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) GetStringM
 	return returns
 }
 
-func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -472,11 +472,11 @@ func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) Interpolat
 	return returns
 }
 
-func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) ResetTeamI
 	)
 }
 
-func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IncidentWorkflowTriggerPermissionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

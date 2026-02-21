@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package escalationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/escalationpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/escalationpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EscalationPolicyRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type EscalationPolicyRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,15 +69,15 @@ type EscalationPolicyRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEscalationRuleAssignmentStrategy(value *EscalationPolicyRuleEscalationRuleAssignmentStrategy)
 	PutTarget(value interface{})
 	ResetEscalationRuleAssignmentStrategy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type EscalationPolicyRuleOutputReference interface {
 
 // The jsii proxy struct for EscalationPolicyRuleOutputReference
 type jsiiProxy_EscalationPolicyRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EscalationPolicyRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -220,8 +220,8 @@ func (j *jsiiProxy_EscalationPolicyRuleOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_EscalationPolicyRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EscalationPolicyRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -231,7 +231,7 @@ func (j *jsiiProxy_EscalationPolicyRuleOutputReference) TerraformResource() cdkt
 }
 
 
-func NewEscalationPolicyRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EscalationPolicyRuleOutputReference {
+func NewEscalationPolicyRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EscalationPolicyRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEscalationPolicyRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -240,7 +240,7 @@ func NewEscalationPolicyRuleOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_EscalationPolicyRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleOutputReference",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -248,11 +248,11 @@ func NewEscalationPolicyRuleOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewEscalationPolicyRuleOutputReference_Override(e EscalationPolicyRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEscalationPolicyRuleOutputReference_Override(e EscalationPolicyRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleOutputReference",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)
@@ -313,7 +313,7 @@ func (j *jsiiProxy_EscalationPolicyRuleOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_EscalationPolicyRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EscalationPolicyRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,11 +353,11 @@ func (e *jsiiProxy_EscalationPolicyRuleOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (e *jsiiProxy_EscalationPolicyRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EscalationPolicyRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -481,8 +481,8 @@ func (e *jsiiProxy_EscalationPolicyRuleOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (e *jsiiProxy_EscalationPolicyRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EscalationPolicyRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -494,11 +494,11 @@ func (e *jsiiProxy_EscalationPolicyRuleOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (e *jsiiProxy_EscalationPolicyRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EscalationPolicyRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -540,7 +540,7 @@ func (e *jsiiProxy_EscalationPolicyRuleOutputReference) ResetEscalationRuleAssig
 	)
 }
 
-func (e *jsiiProxy_EscalationPolicyRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EscalationPolicyRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,26 +1,26 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package usercontactmethod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/usercontactmethod/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/usercontactmethod/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/user_contact_method pagerduty_user_contact_method}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/user_contact_method pagerduty_user_contact_method}.
 type UserContactMethod interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Address() *string
 	SetAddress(val *string)
 	AddressInput() *string
-	Blacklisted() cdktf.IResolvable
+	Blacklisted() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,11 +41,11 @@ type UserContactMethod interface {
 	DeviceType() *string
 	SetDeviceType(val *string)
 	DeviceTypeInput() *string
-	Enabled() cdktf.IResolvable
+	Enabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,15 +55,15 @@ type UserContactMethod interface {
 	SetLabel(val *string)
 	LabelInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type UserContactMethod interface {
 	SetSendShortEmail(val interface{})
 	SendShortEmailInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type UserContactMethod interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type UserContactMethod interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -149,7 +149,7 @@ type UserContactMethod interface {
 
 // The jsii proxy struct for UserContactMethod
 type jsiiProxy_UserContactMethod struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_UserContactMethod) Address() *string {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_UserContactMethod) AddressInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) Blacklisted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_UserContactMethod) Blacklisted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"blacklisted",
@@ -182,8 +182,8 @@ func (j *jsiiProxy_UserContactMethod) Blacklisted() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_UserContactMethod) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -272,8 +272,8 @@ func (j *jsiiProxy_UserContactMethod) DeviceTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_UserContactMethod) Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabled",
@@ -282,8 +282,8 @@ func (j *jsiiProxy_UserContactMethod) Enabled() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_UserContactMethod) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_UserContactMethod) LabelInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_UserContactMethod) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_UserContactMethod) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_UserContactMethod) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -412,8 +412,8 @@ func (j *jsiiProxy_UserContactMethod) SendShortEmailInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_UserContactMethod) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_UserContactMethod) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -483,7 +483,7 @@ func (j *jsiiProxy_UserContactMethod) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
 func NewUserContactMethod(scope constructs.Construct, id *string, config *UserContactMethodConfig) UserContactMethod {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewUserContactMethod(scope constructs.Construct, id *string, config *UserCo
 	j := jsiiProxy_UserContactMethod{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -501,12 +501,12 @@ func NewUserContactMethod(scope constructs.Construct, id *string, config *UserCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
 func NewUserContactMethod_Override(u UserContactMethod, scope constructs.Construct, id *string, config *UserContactMethodConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		[]interface{}{scope, id, config},
 		u,
 	)
@@ -575,7 +575,7 @@ func (j *jsiiProxy_UserContactMethod)SetDeviceType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_UserContactMethod)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_UserContactMethod)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -594,7 +594,7 @@ func (j *jsiiProxy_UserContactMethod)SetLabel(val *string) {
 	)
 }
 
-func (j *jsiiProxy_UserContactMethod)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_UserContactMethod)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -605,7 +605,7 @@ func (j *jsiiProxy_UserContactMethod)SetLifecycle(val *cdktf.TerraformResourceLi
 	)
 }
 
-func (j *jsiiProxy_UserContactMethod)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_UserContactMethod)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -657,17 +657,17 @@ func (j *jsiiProxy_UserContactMethod)SetUserId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a UserContactMethod resource upon running "cdktf plan <stack-name>".
-func UserContactMethod_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a UserContactMethod resource upon running "cdktn plan <stack-name>".
+func UserContactMethod_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateUserContactMethod_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -702,7 +702,7 @@ func UserContactMethod_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func UserContactMethod_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -740,7 +740,7 @@ func UserContactMethod_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func UserContactMethod_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.userContactMethod.UserContactMethod",
+		"@cdktn/provider-pagerduty.userContactMethod.UserContactMethod",
 		"tfResourceType",
 		&returns,
 	)
@@ -798,11 +798,11 @@ func (u *jsiiProxy_UserContactMethod) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (u *jsiiProxy_UserContactMethod) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (u *jsiiProxy_UserContactMethod) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := u.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		u,
@@ -939,7 +939,7 @@ func (u *jsiiProxy_UserContactMethod) HasResourceMove() interface{} {
 	return returns
 }
 
-func (u *jsiiProxy_UserContactMethod) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (u *jsiiProxy_UserContactMethod) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := u.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -950,11 +950,11 @@ func (u *jsiiProxy_UserContactMethod) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (u *jsiiProxy_UserContactMethod) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (u *jsiiProxy_UserContactMethod) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := u.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		u,

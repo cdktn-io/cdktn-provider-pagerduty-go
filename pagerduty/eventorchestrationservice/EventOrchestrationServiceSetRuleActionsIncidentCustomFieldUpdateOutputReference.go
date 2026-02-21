@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/eventorchestrationservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/eventorchestrationservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputRefer
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -51,7 +51,7 @@ type EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputRefer
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputRefer
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputRefer
 
 // The jsii proxy struct for EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference
 type jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return returns
 }
 
-func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 }
 
 
-func NewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference {
+func NewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -205,7 +205,7 @@ func NewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputRe
 	j := jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationService.EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationService.EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputRe
 	return &j
 }
 
-func NewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference_Override(e EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference_Override(e EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationService.EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationService.EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)
@@ -278,7 +278,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	)
 }
 
-func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -457,8 +457,8 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -470,11 +470,11 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -486,7 +486,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpd
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleActionsIncidentCustomFieldUpdateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicedependency
@@ -7,13 +7,13 @@ package servicedependency
 type ServiceDependencyDependency struct {
 	// dependent_service block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/service_dependency#dependent_service ServiceDependency#dependent_service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_dependency#dependent_service ServiceDependency#dependent_service}
 	DependentService interface{} `field:"optional" json:"dependentService" yaml:"dependentService"`
 	// supporting_service block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/service_dependency#supporting_service ServiceDependency#supporting_service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_dependency#supporting_service ServiceDependency#supporting_service}
 	SupportingService interface{} `field:"optional" json:"supportingService" yaml:"supportingService"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/service_dependency#type ServiceDependency#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_dependency#type ServiceDependency#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

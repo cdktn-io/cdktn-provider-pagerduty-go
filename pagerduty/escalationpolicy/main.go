@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package escalationpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicy",
 		reflect.TypeOf((*EscalationPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,24 +75,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EscalationPolicy{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyConfig",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyConfig",
 		reflect.TypeOf((*EscalationPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRule",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRule",
 		reflect.TypeOf((*EscalationPolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleEscalationRuleAssignmentStrategy",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleEscalationRuleAssignmentStrategy",
 		reflect.TypeOf((*EscalationPolicyRuleEscalationRuleAssignmentStrategy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference",
 		reflect.TypeOf((*EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,12 +122,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EscalationPolicyRuleEscalationRuleAssignmentStrategyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleList",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleList",
 		reflect.TypeOf((*EscalationPolicyRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -144,12 +144,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EscalationPolicyRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleOutputReference",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleOutputReference",
 		reflect.TypeOf((*EscalationPolicyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,16 +186,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EscalationPolicyRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleTarget",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleTarget",
 		reflect.TypeOf((*EscalationPolicyRuleTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleTargetList",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleTargetList",
 		reflect.TypeOf((*EscalationPolicyRuleTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -212,12 +212,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EscalationPolicyRuleTargetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.escalationPolicy.EscalationPolicyRuleTargetOutputReference",
+		"@cdktn/provider-pagerduty.escalationPolicy.EscalationPolicyRuleTargetOutputReference",
 		reflect.TypeOf((*EscalationPolicyRuleTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,7 +249,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EscalationPolicyRuleTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

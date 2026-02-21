@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rulesetrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/rulesetrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/rulesetrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RulesetRuleActionsRouteList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type RulesetRuleActionsRouteList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type RulesetRuleActionsRouteList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) RulesetRuleActionsRouteOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type RulesetRuleActionsRouteList interface {
 
 // The jsii proxy struct for RulesetRuleActionsRouteList
 type jsiiProxy_RulesetRuleActionsRouteList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_RulesetRuleActionsRouteList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_RulesetRuleActionsRouteList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RulesetRuleActionsRouteList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RulesetRuleActionsRouteList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_RulesetRuleActionsRouteList) WrapsSet() *bool {
 }
 
 
-func NewRulesetRuleActionsRouteList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RulesetRuleActionsRouteList {
+func NewRulesetRuleActionsRouteList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) RulesetRuleActionsRouteList {
 	_init_.Initialize()
 
 	if err := validateNewRulesetRuleActionsRouteListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewRulesetRuleActionsRouteList(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_RulesetRuleActionsRouteList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewRulesetRuleActionsRouteList(terraformResource cdktf.IInterpolatingParent
 	return &j
 }
 
-func NewRulesetRuleActionsRouteList_Override(r RulesetRuleActionsRouteList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewRulesetRuleActionsRouteList_Override(r RulesetRuleActionsRouteList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteList",
+		"@cdktn/provider-pagerduty.rulesetRule.RulesetRuleActionsRouteList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_RulesetRuleActionsRouteList)SetTerraformAttribute(val *string
 	)
 }
 
-func (j *jsiiProxy_RulesetRuleActionsRouteList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RulesetRuleActionsRouteList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_RulesetRuleActionsRouteList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (r *jsiiProxy_RulesetRuleActionsRouteList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (r *jsiiProxy_RulesetRuleActionsRouteList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := r.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		r,
@@ -231,7 +231,7 @@ func (r *jsiiProxy_RulesetRuleActionsRouteList) Get(index *float64) RulesetRuleA
 	return returns
 }
 
-func (r *jsiiProxy_RulesetRuleActionsRouteList) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RulesetRuleActionsRouteList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

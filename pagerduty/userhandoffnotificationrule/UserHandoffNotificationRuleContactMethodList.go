@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package userhandoffnotificationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/userhandoffnotificationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/userhandoffnotificationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type UserHandoffNotificationRuleContactMethodList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type UserHandoffNotificationRuleContactMethodList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type UserHandoffNotificationRuleContactMethodList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) UserHandoffNotificationRuleContactMethodOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type UserHandoffNotificationRuleContactMethodList interface {
 
 // The jsii proxy struct for UserHandoffNotificationRuleContactMethodList
 type jsiiProxy_UserHandoffNotificationRuleContactMethodList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList) WrapsSet() *boo
 }
 
 
-func NewUserHandoffNotificationRuleContactMethodList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) UserHandoffNotificationRuleContactMethodList {
+func NewUserHandoffNotificationRuleContactMethodList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) UserHandoffNotificationRuleContactMethodList {
 	_init_.Initialize()
 
 	if err := validateNewUserHandoffNotificationRuleContactMethodListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -124,7 +124,7 @@ func NewUserHandoffNotificationRuleContactMethodList(terraformResource cdktf.IIn
 	j := jsiiProxy_UserHandoffNotificationRuleContactMethodList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.userHandoffNotificationRule.UserHandoffNotificationRuleContactMethodList",
+		"@cdktn/provider-pagerduty.userHandoffNotificationRule.UserHandoffNotificationRuleContactMethodList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -132,11 +132,11 @@ func NewUserHandoffNotificationRuleContactMethodList(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewUserHandoffNotificationRuleContactMethodList_Override(u UserHandoffNotificationRuleContactMethodList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewUserHandoffNotificationRuleContactMethodList_Override(u UserHandoffNotificationRuleContactMethodList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.userHandoffNotificationRule.UserHandoffNotificationRuleContactMethodList",
+		"@cdktn/provider-pagerduty.userHandoffNotificationRule.UserHandoffNotificationRuleContactMethodList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		u,
 	)
@@ -164,7 +164,7 @@ func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_UserHandoffNotificationRuleContactMethodList)SetWrapsSet(val 
 	)
 }
 
-func (u *jsiiProxy_UserHandoffNotificationRuleContactMethodList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (u *jsiiProxy_UserHandoffNotificationRuleContactMethodList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := u.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		u,
@@ -231,7 +231,7 @@ func (u *jsiiProxy_UserHandoffNotificationRuleContactMethodList) Get(index *floa
 	return returns
 }
 
-func (u *jsiiProxy_UserHandoffNotificationRuleContactMethodList) Resolve(context cdktf.IResolveContext) interface{} {
+func (u *jsiiProxy_UserHandoffNotificationRuleContactMethodList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := u.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

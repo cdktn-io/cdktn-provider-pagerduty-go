@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package schedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.Schedule",
+		"@cdktn/provider-pagerduty.schedule.Schedule",
 		reflect.TypeOf((*Schedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,20 +79,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Schedule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.schedule.ScheduleConfig",
+		"@cdktn/provider-pagerduty.schedule.ScheduleConfig",
 		reflect.TypeOf((*ScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.schedule.ScheduleFinalSchedule",
+		"@cdktn/provider-pagerduty.schedule.ScheduleFinalSchedule",
 		reflect.TypeOf((*ScheduleFinalSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.ScheduleFinalScheduleList",
+		"@cdktn/provider-pagerduty.schedule.ScheduleFinalScheduleList",
 		reflect.TypeOf((*ScheduleFinalScheduleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,12 +108,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ScheduleFinalScheduleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.ScheduleFinalScheduleOutputReference",
+		"@cdktn/provider-pagerduty.schedule.ScheduleFinalScheduleOutputReference",
 		reflect.TypeOf((*ScheduleFinalScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,16 +142,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ScheduleFinalScheduleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.schedule.ScheduleLayer",
+		"@cdktn/provider-pagerduty.schedule.ScheduleLayer",
 		reflect.TypeOf((*ScheduleLayer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.ScheduleLayerList",
+		"@cdktn/provider-pagerduty.schedule.ScheduleLayerList",
 		reflect.TypeOf((*ScheduleLayerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -168,12 +168,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ScheduleLayerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.ScheduleLayerOutputReference",
+		"@cdktn/provider-pagerduty.schedule.ScheduleLayerOutputReference",
 		reflect.TypeOf((*ScheduleLayerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -220,16 +220,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ScheduleLayerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.schedule.ScheduleLayerRestriction",
+		"@cdktn/provider-pagerduty.schedule.ScheduleLayerRestriction",
 		reflect.TypeOf((*ScheduleLayerRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.ScheduleLayerRestrictionList",
+		"@cdktn/provider-pagerduty.schedule.ScheduleLayerRestrictionList",
 		reflect.TypeOf((*ScheduleLayerRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -246,12 +246,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ScheduleLayerRestrictionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.schedule.ScheduleLayerRestrictionOutputReference",
+		"@cdktn/provider-pagerduty.schedule.ScheduleLayerRestrictionOutputReference",
 		reflect.TypeOf((*ScheduleLayerRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,7 +287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ScheduleLayerRestrictionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

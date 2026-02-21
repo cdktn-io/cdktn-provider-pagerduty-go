@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package incidentworkflowtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/incidentworkflowtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/incidentworkflowtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/incident_workflow_trigger pagerduty_incident_workflow_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_workflow_trigger pagerduty_incident_workflow_trigger}.
 type IncidentWorkflowTrigger interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() *string
 	SetCondition(val *string)
 	ConditionInput() *string
@@ -35,9 +35,9 @@ type IncidentWorkflowTrigger interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,17 +46,17 @@ type IncidentWorkflowTrigger interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Permissions() IncidentWorkflowTriggerPermissionsOutputReference
 	PermissionsInput() *IncidentWorkflowTriggerPermissions
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type IncidentWorkflowTrigger interface {
 	SetSubscribedToAllServices(val interface{})
 	SubscribedToAllServicesInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type IncidentWorkflowTrigger interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type IncidentWorkflowTrigger interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,11 +147,11 @@ type IncidentWorkflowTrigger interface {
 
 // The jsii proxy struct for IncidentWorkflowTrigger
 type jsiiProxy_IncidentWorkflowTrigger struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IncidentWorkflowTrigger) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -220,8 +220,8 @@ func (j *jsiiProxy_IncidentWorkflowTrigger) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IncidentWorkflowTrigger) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_IncidentWorkflowTrigger) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IncidentWorkflowTrigger) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -310,8 +310,8 @@ func (j *jsiiProxy_IncidentWorkflowTrigger) PermissionsInput() *IncidentWorkflow
 	return returns
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IncidentWorkflowTrigger) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_IncidentWorkflowTrigger) SubscribedToAllServicesInput() inter
 	return returns
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IncidentWorkflowTrigger) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -451,7 +451,7 @@ func (j *jsiiProxy_IncidentWorkflowTrigger) WorkflowInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/incident_workflow_trigger pagerduty_incident_workflow_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_workflow_trigger pagerduty_incident_workflow_trigger} Resource.
 func NewIncidentWorkflowTrigger(scope constructs.Construct, id *string, config *IncidentWorkflowTriggerConfig) IncidentWorkflowTrigger {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewIncidentWorkflowTrigger(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_IncidentWorkflowTrigger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewIncidentWorkflowTrigger(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/incident_workflow_trigger pagerduty_incident_workflow_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_workflow_trigger pagerduty_incident_workflow_trigger} Resource.
 func NewIncidentWorkflowTrigger_Override(i IncidentWorkflowTrigger, scope constructs.Construct, id *string, config *IncidentWorkflowTriggerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -521,7 +521,7 @@ func (j *jsiiProxy_IncidentWorkflowTrigger)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IncidentWorkflowTrigger)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_IncidentWorkflowTrigger)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IncidentWorkflowTrigger)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -551,7 +551,7 @@ func (j *jsiiProxy_IncidentWorkflowTrigger)SetLifecycle(val *cdktf.TerraformReso
 	)
 }
 
-func (j *jsiiProxy_IncidentWorkflowTrigger)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IncidentWorkflowTrigger)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -614,17 +614,17 @@ func (j *jsiiProxy_IncidentWorkflowTrigger)SetWorkflow(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a IncidentWorkflowTrigger resource upon running "cdktf plan <stack-name>".
-func IncidentWorkflowTrigger_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IncidentWorkflowTrigger resource upon running "cdktn plan <stack-name>".
+func IncidentWorkflowTrigger_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIncidentWorkflowTrigger_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func IncidentWorkflowTrigger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func IncidentWorkflowTrigger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func IncidentWorkflowTrigger_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func IncidentWorkflowTrigger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
+		"@cdktn/provider-pagerduty.incidentWorkflowTrigger.IncidentWorkflowTrigger",
 		"tfResourceType",
 		&returns,
 	)
@@ -755,11 +755,11 @@ func (i *jsiiProxy_IncidentWorkflowTrigger) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (i *jsiiProxy_IncidentWorkflowTrigger) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IncidentWorkflowTrigger) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -896,7 +896,7 @@ func (i *jsiiProxy_IncidentWorkflowTrigger) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_IncidentWorkflowTrigger) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IncidentWorkflowTrigger) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -907,11 +907,11 @@ func (i *jsiiProxy_IncidentWorkflowTrigger) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (i *jsiiProxy_IncidentWorkflowTrigger) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IncidentWorkflowTrigger) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

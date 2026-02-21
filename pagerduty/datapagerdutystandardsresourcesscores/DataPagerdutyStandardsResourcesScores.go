@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutystandardsresourcesscores
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutystandardsresourcesscores/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutystandardsresourcesscores/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores}.
 type DataPagerdutyStandardsResourcesScores interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataPagerdutyStandardsResourcesScores interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,15 +39,15 @@ type DataPagerdutyStandardsResourcesScores interface {
 	SetIds(val *[]*string)
 	IdsInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Resources() DataPagerdutyStandardsResourcesScoresResourcesList
@@ -55,7 +55,7 @@ type DataPagerdutyStandardsResourcesScores interface {
 	SetResourceType(val *string)
 	ResourceTypeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type DataPagerdutyStandardsResourcesScores interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,7 +81,7 @@ type DataPagerdutyStandardsResourcesScores interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -104,11 +104,11 @@ type DataPagerdutyStandardsResourcesScores interface {
 
 // The jsii proxy struct for DataPagerdutyStandardsResourcesScores
 type jsiiProxy_DataPagerdutyStandardsResourcesScores struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -147,8 +147,8 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) DependsOn() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) IdsInput() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) ResourceTypeInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
 func NewDataPagerdutyStandardsResourcesScores(scope constructs.Construct, id *string, config *DataPagerdutyStandardsResourcesScoresConfig) DataPagerdutyStandardsResourcesScores {
 	_init_.Initialize()
 
@@ -308,7 +308,7 @@ func NewDataPagerdutyStandardsResourcesScores(scope constructs.Construct, id *st
 	j := jsiiProxy_DataPagerdutyStandardsResourcesScores{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -316,12 +316,12 @@ func NewDataPagerdutyStandardsResourcesScores(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
 func NewDataPagerdutyStandardsResourcesScores_Override(d DataPagerdutyStandardsResourcesScores, scope constructs.Construct, id *string, config *DataPagerdutyStandardsResourcesScoresConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetIds(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetLifecycle(val *cdktf
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -395,17 +395,17 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores)SetResourceType(val *st
 	)
 }
 
-// Generates CDKTF code for importing a DataPagerdutyStandardsResourcesScores resource upon running "cdktf plan <stack-name>".
-func DataPagerdutyStandardsResourcesScores_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataPagerdutyStandardsResourcesScores resource upon running "cdktn plan <stack-name>".
+func DataPagerdutyStandardsResourcesScores_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataPagerdutyStandardsResourcesScores_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -440,7 +440,7 @@ func DataPagerdutyStandardsResourcesScores_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -459,7 +459,7 @@ func DataPagerdutyStandardsResourcesScores_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -478,7 +478,7 @@ func DataPagerdutyStandardsResourcesScores_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -491,7 +491,7 @@ func DataPagerdutyStandardsResourcesScores_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourcesScores.DataPagerdutyStandardsResourcesScores",
 		"tfResourceType",
 		&returns,
 	)
@@ -525,11 +525,11 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -653,11 +653,11 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) GetStringMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

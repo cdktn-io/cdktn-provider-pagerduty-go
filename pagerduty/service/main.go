@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package service
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.Service",
+		"@cdktn/provider-pagerduty.service.Service",
 		reflect.TypeOf((*Service)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acknowledgementTimeout", GoGetter: "AcknowledgementTimeout"},
@@ -111,20 +111,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Service{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceAlertGroupingParameters",
+		"@cdktn/provider-pagerduty.service.ServiceAlertGroupingParameters",
 		reflect.TypeOf((*ServiceAlertGroupingParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceAlertGroupingParametersConfig",
+		"@cdktn/provider-pagerduty.service.ServiceAlertGroupingParametersConfig",
 		reflect.TypeOf((*ServiceAlertGroupingParametersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceAlertGroupingParametersConfigOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAlertGroupingParametersConfigOutputReference",
 		reflect.TypeOf((*ServiceAlertGroupingParametersConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregate", GoGetter: "Aggregate"},
@@ -163,12 +163,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceAlertGroupingParametersOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAlertGroupingParametersOutputReference",
 		reflect.TypeOf((*ServiceAlertGroupingParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,16 +202,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAlertGroupingParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceAutoPauseNotificationsParameters",
+		"@cdktn/provider-pagerduty.service.ServiceAutoPauseNotificationsParameters",
 		reflect.TypeOf((*ServiceAutoPauseNotificationsParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceAutoPauseNotificationsParametersOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAutoPauseNotificationsParametersOutputReference",
 		reflect.TypeOf((*ServiceAutoPauseNotificationsParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -244,24 +244,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAutoPauseNotificationsParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceConfig",
+		"@cdktn/provider-pagerduty.service.ServiceConfig",
 		reflect.TypeOf((*ServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceIncidentUrgencyRule",
+		"@cdktn/provider-pagerduty.service.ServiceIncidentUrgencyRule",
 		reflect.TypeOf((*ServiceIncidentUrgencyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceIncidentUrgencyRuleDuringSupportHours",
+		"@cdktn/provider-pagerduty.service.ServiceIncidentUrgencyRuleDuringSupportHours",
 		reflect.TypeOf((*ServiceIncidentUrgencyRuleDuringSupportHours)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceIncidentUrgencyRuleDuringSupportHoursOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceIncidentUrgencyRuleDuringSupportHoursOutputReference",
 		reflect.TypeOf((*ServiceIncidentUrgencyRuleDuringSupportHoursOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,12 +294,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIncidentUrgencyRuleDuringSupportHoursOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceIncidentUrgencyRuleOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceIncidentUrgencyRuleOutputReference",
 		reflect.TypeOf((*ServiceIncidentUrgencyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -339,16 +339,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIncidentUrgencyRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceIncidentUrgencyRuleOutsideSupportHours",
+		"@cdktn/provider-pagerduty.service.ServiceIncidentUrgencyRuleOutsideSupportHours",
 		reflect.TypeOf((*ServiceIncidentUrgencyRuleOutsideSupportHours)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceIncidentUrgencyRuleOutsideSupportHoursOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceIncidentUrgencyRuleOutsideSupportHoursOutputReference",
 		reflect.TypeOf((*ServiceIncidentUrgencyRuleOutsideSupportHoursOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -381,20 +381,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIncidentUrgencyRuleOutsideSupportHoursOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceScheduledActions",
+		"@cdktn/provider-pagerduty.service.ServiceScheduledActions",
 		reflect.TypeOf((*ServiceScheduledActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceScheduledActionsAt",
+		"@cdktn/provider-pagerduty.service.ServiceScheduledActionsAt",
 		reflect.TypeOf((*ServiceScheduledActionsAt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceScheduledActionsAtList",
+		"@cdktn/provider-pagerduty.service.ServiceScheduledActionsAtList",
 		reflect.TypeOf((*ServiceScheduledActionsAtList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -411,12 +411,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceScheduledActionsAtList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceScheduledActionsAtOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceScheduledActionsAtOutputReference",
 		reflect.TypeOf((*ServiceScheduledActionsAtOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -449,12 +449,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceScheduledActionsAtOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceScheduledActionsList",
+		"@cdktn/provider-pagerduty.service.ServiceScheduledActionsList",
 		reflect.TypeOf((*ServiceScheduledActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -471,12 +471,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceScheduledActionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceScheduledActionsOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceScheduledActionsOutputReference",
 		reflect.TypeOf((*ServiceScheduledActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "at", GoGetter: "At"},
@@ -513,16 +513,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceScheduledActionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.service.ServiceSupportHours",
+		"@cdktn/provider-pagerduty.service.ServiceSupportHours",
 		reflect.TypeOf((*ServiceSupportHours)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.service.ServiceSupportHoursOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceSupportHoursOutputReference",
 		reflect.TypeOf((*ServiceSupportHoursOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -564,7 +564,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceSupportHoursOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

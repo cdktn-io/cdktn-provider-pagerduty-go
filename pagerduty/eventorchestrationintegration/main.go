@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationintegration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationA",
+		"@cdktn/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationA",
 		reflect.TypeOf((*EventOrchestrationIntegrationA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -64,20 +64,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationA{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationAConfig",
+		"@cdktn/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationAConfig",
 		reflect.TypeOf((*EventOrchestrationIntegrationAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationParametersA",
+		"@cdktn/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationParametersA",
 		reflect.TypeOf((*EventOrchestrationIntegrationParametersA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationParametersAList",
+		"@cdktn/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationParametersAList",
 		reflect.TypeOf((*EventOrchestrationIntegrationParametersAList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,12 +93,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationParametersAList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationParametersAOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationIntegration.EventOrchestrationIntegrationParametersAOutputReference",
 		reflect.TypeOf((*EventOrchestrationIntegrationParametersAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,7 +127,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EventOrchestrationIntegrationParametersAOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

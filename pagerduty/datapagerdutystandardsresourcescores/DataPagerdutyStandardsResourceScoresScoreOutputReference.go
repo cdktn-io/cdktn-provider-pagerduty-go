@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutystandardsresourcescores
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutystandardsresourcescores/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutystandardsresourcescores/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataPagerdutyStandardsResourceScoresScoreOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,16 +38,16 @@ type DataPagerdutyStandardsResourceScoresScoreOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Total() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataPagerdutyStandardsResourceScoresScoreOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataPagerdutyStandardsResourceScoresScoreOutputReference interface {
 
 // The jsii proxy struct for DataPagerdutyStandardsResourceScoresScoreOutputReference
 type jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) ComplexObjectIndex() interface{} {
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Tot
 }
 
 
-func NewDataPagerdutyStandardsResourceScoresScoreOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataPagerdutyStandardsResourceScoresScoreOutputReference {
+func NewDataPagerdutyStandardsResourceScoresScoreOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataPagerdutyStandardsResourceScoresScoreOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataPagerdutyStandardsResourceScoresScoreOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -181,7 +181,7 @@ func NewDataPagerdutyStandardsResourceScoresScoreOutputReference(terraformResour
 	j := jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourceScores.DataPagerdutyStandardsResourceScoresScoreOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourceScores.DataPagerdutyStandardsResourceScoresScoreOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -189,11 +189,11 @@ func NewDataPagerdutyStandardsResourceScoresScoreOutputReference(terraformResour
 	return &j
 }
 
-func NewDataPagerdutyStandardsResourceScoresScoreOutputReference_Override(d DataPagerdutyStandardsResourceScoresScoreOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataPagerdutyStandardsResourceScoresScoreOutputReference_Override(d DataPagerdutyStandardsResourceScoresScoreOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyStandardsResourceScores.DataPagerdutyStandardsResourceScoresScoreOutputReference",
+		"@cdktn/provider-pagerduty.dataPagerdutyStandardsResourceScores.DataPagerdutyStandardsResourceScoresScoreOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataPagerdutyStandardsResourceScoresScoreOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

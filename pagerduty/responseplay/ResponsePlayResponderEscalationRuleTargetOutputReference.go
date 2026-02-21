@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package responseplay
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/responseplay/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/responseplay/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ResponsePlayResponderEscalationRuleTargetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,16 +38,16 @@ type ResponsePlayResponderEscalationRuleTargetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type ResponsePlayResponderEscalationRuleTargetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type ResponsePlayResponderEscalationRuleTargetOutputReference interface {
 
 // The jsii proxy struct for ResponsePlayResponderEscalationRuleTargetOutputReference
 type jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) ComplexObjectIndex() interface{} {
@@ -151,8 +151,8 @@ func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Typ
 }
 
 
-func NewResponsePlayResponderEscalationRuleTargetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ResponsePlayResponderEscalationRuleTargetOutputReference {
+func NewResponsePlayResponderEscalationRuleTargetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ResponsePlayResponderEscalationRuleTargetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewResponsePlayResponderEscalationRuleTargetOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -181,7 +181,7 @@ func NewResponsePlayResponderEscalationRuleTargetOutputReference(terraformResour
 	j := jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -189,11 +189,11 @@ func NewResponsePlayResponderEscalationRuleTargetOutputReference(terraformResour
 	return &j
 }
 
-func NewResponsePlayResponderEscalationRuleTargetOutputReference_Override(r ResponsePlayResponderEscalationRuleTargetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewResponsePlayResponderEscalationRuleTargetOutputReference_Override(r ResponsePlayResponderEscalationRuleTargetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetOutputReference",
+		"@cdktn/provider-pagerduty.responsePlay.ResponsePlayResponderEscalationRuleTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)
@@ -243,7 +243,7 @@ func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Get
 	return returns
 }
 
-func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -411,8 +411,8 @@ func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Get
 	return returns
 }
 
-func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -424,11 +424,11 @@ func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Int
 	return returns
 }
 
-func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -440,7 +440,7 @@ func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Int
 	return returns
 }
 
-func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ResponsePlayResponderEscalationRuleTargetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

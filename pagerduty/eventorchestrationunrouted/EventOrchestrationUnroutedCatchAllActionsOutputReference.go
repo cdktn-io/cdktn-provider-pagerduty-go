@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationunrouted
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/eventorchestrationunrouted/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/eventorchestrationunrouted/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventOrchestrationUnroutedCatchAllActionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type EventOrchestrationUnroutedCatchAllActionsOutputReference interface {
 	Severity() *string
 	SetSeverity(val *string)
 	SeverityInput() *string
-	Suppress() cdktf.IResolvable
+	Suppress() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Variable() EventOrchestrationUnroutedCatchAllActionsVariableList
 	VariableInput() interface{}
 	// Experimental.
@@ -56,7 +56,7 @@ type EventOrchestrationUnroutedCatchAllActionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type EventOrchestrationUnroutedCatchAllActionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExtraction(value interface{})
 	PutVariable(value interface{})
 	ResetEventAction()
@@ -83,7 +83,7 @@ type EventOrchestrationUnroutedCatchAllActionsOutputReference interface {
 	ResetVariable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type EventOrchestrationUnroutedCatchAllActionsOutputReference interface {
 
 // The jsii proxy struct for EventOrchestrationUnroutedCatchAllActionsOutputReference
 type jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) ComplexObjectIndex() interface{} {
@@ -206,8 +206,8 @@ func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Sev
 	return returns
 }
 
-func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Suppress() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Suppress() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"suppress",
@@ -226,8 +226,8 @@ func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -257,7 +257,7 @@ func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Var
 }
 
 
-func NewEventOrchestrationUnroutedCatchAllActionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EventOrchestrationUnroutedCatchAllActionsOutputReference {
+func NewEventOrchestrationUnroutedCatchAllActionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EventOrchestrationUnroutedCatchAllActionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventOrchestrationUnroutedCatchAllActionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -266,7 +266,7 @@ func NewEventOrchestrationUnroutedCatchAllActionsOutputReference(terraformResour
 	j := jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedCatchAllActionsOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedCatchAllActionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -274,11 +274,11 @@ func NewEventOrchestrationUnroutedCatchAllActionsOutputReference(terraformResour
 	return &j
 }
 
-func NewEventOrchestrationUnroutedCatchAllActionsOutputReference_Override(e EventOrchestrationUnroutedCatchAllActionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEventOrchestrationUnroutedCatchAllActionsOutputReference_Override(e EventOrchestrationUnroutedCatchAllActionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedCatchAllActionsOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationUnrouted.EventOrchestrationUnroutedCatchAllActionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)
@@ -350,7 +350,7 @@ func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Get
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -518,8 +518,8 @@ func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Get
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -531,11 +531,11 @@ func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Int
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -601,7 +601,7 @@ func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Res
 	)
 }
 
-func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventOrchestrationUnroutedCatchAllActionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

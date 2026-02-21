@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/service/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/service/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceAlertGroupingParametersConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Aggregate() *string
 	SetAggregate(val *string)
 	AggregateInput() *string
@@ -43,9 +43,9 @@ type ServiceAlertGroupingParametersConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timeout() *float64
 	SetTimeout(val *float64)
 	TimeoutInput() *float64
@@ -57,7 +57,7 @@ type ServiceAlertGroupingParametersConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type ServiceAlertGroupingParametersConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAggregate()
 	ResetFields()
 	ResetTimeout()
 	ResetTimeWindow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type ServiceAlertGroupingParametersConfigOutputReference interface {
 
 // The jsii proxy struct for ServiceAlertGroupingParametersConfigOutputReference
 type jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) Aggregate() *string {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) TimeWind
 }
 
 
-func NewServiceAlertGroupingParametersConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceAlertGroupingParametersConfigOutputReference {
+func NewServiceAlertGroupingParametersConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceAlertGroupingParametersConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceAlertGroupingParametersConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -255,7 +255,7 @@ func NewServiceAlertGroupingParametersConfigOutputReference(terraformResource cd
 	j := jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.service.ServiceAlertGroupingParametersConfigOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAlertGroupingParametersConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,11 +263,11 @@ func NewServiceAlertGroupingParametersConfigOutputReference(terraformResource cd
 	return &j
 }
 
-func NewServiceAlertGroupingParametersConfigOutputReference_Override(s ServiceAlertGroupingParametersConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceAlertGroupingParametersConfigOutputReference_Override(s ServiceAlertGroupingParametersConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.service.ServiceAlertGroupingParametersConfigOutputReference",
+		"@cdktn/provider-pagerduty.service.ServiceAlertGroupingParametersConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)
@@ -339,7 +339,7 @@ func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) GetAnyMa
 	return returns
 }
 
-func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,8 +529,8 @@ func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) GetStrin
 	return returns
 }
 
-func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -542,11 +542,11 @@ func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) Interpol
 	return returns
 }
 
-func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) ResetTim
 	)
 }
 
-func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceAlertGroupingParametersConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicedependency
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependency",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependency",
 		reflect.TypeOf((*ServiceDependency)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -63,24 +63,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependency{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyConfig",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyConfig",
 		reflect.TypeOf((*ServiceDependencyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependency",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependency",
 		reflect.TypeOf((*ServiceDependencyDependency)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencyDependentService",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencyDependentService",
 		reflect.TypeOf((*ServiceDependencyDependencyDependentService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencyDependentServiceList",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencyDependentServiceList",
 		reflect.TypeOf((*ServiceDependencyDependencyDependentServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,12 +97,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependencyDependencyDependentServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencyDependentServiceOutputReference",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencyDependentServiceOutputReference",
 		reflect.TypeOf((*ServiceDependencyDependencyDependentServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,12 +133,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependencyDependencyDependentServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencyList",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencyList",
 		reflect.TypeOf((*ServiceDependencyDependencyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -155,12 +155,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependencyDependencyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencyOutputReference",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencyOutputReference",
 		reflect.TypeOf((*ServiceDependencyDependencyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,16 +198,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependencyDependencyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencySupportingService",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencySupportingService",
 		reflect.TypeOf((*ServiceDependencyDependencySupportingService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencySupportingServiceList",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencySupportingServiceList",
 		reflect.TypeOf((*ServiceDependencyDependencySupportingServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -224,12 +224,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependencyDependencySupportingServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceDependency.ServiceDependencyDependencySupportingServiceOutputReference",
+		"@cdktn/provider-pagerduty.serviceDependency.ServiceDependencyDependencySupportingServiceOutputReference",
 		reflect.TypeOf((*ServiceDependencyDependencySupportingServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceDependencyDependencySupportingServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

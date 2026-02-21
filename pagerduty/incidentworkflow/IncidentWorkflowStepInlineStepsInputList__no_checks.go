@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (i *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateGetParamete
 	return nil
 }
 
-func (i *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IncidentWorkflowStepInlineStepsInputList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewIncidentWorkflowStepInlineStepsInputListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIncidentWorkflowStepInlineStepsInputListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

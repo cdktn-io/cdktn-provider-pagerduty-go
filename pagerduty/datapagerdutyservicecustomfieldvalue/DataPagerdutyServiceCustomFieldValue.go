@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyservicecustomfieldvalue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutyservicecustomfieldvalue/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyservicecustomfieldvalue/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value}.
 type DataPagerdutyServiceCustomFieldValue interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,31 +29,31 @@ type DataPagerdutyServiceCustomFieldValue interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ServiceId() *string
 	SetServiceId(val *string)
 	ServiceIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -63,7 +63,7 @@ type DataPagerdutyServiceCustomFieldValue interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,7 +79,7 @@ type DataPagerdutyServiceCustomFieldValue interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -102,11 +102,11 @@ type DataPagerdutyServiceCustomFieldValue interface {
 
 // The jsii proxy struct for DataPagerdutyServiceCustomFieldValue
 type jsiiProxy_DataPagerdutyServiceCustomFieldValue struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -155,8 +155,8 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) DependsOn() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -195,8 +195,8 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -215,8 +215,8 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) ServiceIdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -286,7 +286,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
 func NewDataPagerdutyServiceCustomFieldValue(scope constructs.Construct, id *string, config *DataPagerdutyServiceCustomFieldValueConfig) DataPagerdutyServiceCustomFieldValue {
 	_init_.Initialize()
 
@@ -296,7 +296,7 @@ func NewDataPagerdutyServiceCustomFieldValue(scope constructs.Construct, id *str
 	j := jsiiProxy_DataPagerdutyServiceCustomFieldValue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -304,12 +304,12 @@ func NewDataPagerdutyServiceCustomFieldValue(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
 func NewDataPagerdutyServiceCustomFieldValue_Override(d DataPagerdutyServiceCustomFieldValue, scope constructs.Construct, id *string, config *DataPagerdutyServiceCustomFieldValueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetForEach(val cdktf.ITe
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,7 +353,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetLifecycle(val *cdktf.
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -372,17 +372,17 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue)SetServiceId(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataPagerdutyServiceCustomFieldValue resource upon running "cdktf plan <stack-name>".
-func DataPagerdutyServiceCustomFieldValue_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataPagerdutyServiceCustomFieldValue resource upon running "cdktn plan <stack-name>".
+func DataPagerdutyServiceCustomFieldValue_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataPagerdutyServiceCustomFieldValue_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -417,7 +417,7 @@ func DataPagerdutyServiceCustomFieldValue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -436,7 +436,7 @@ func DataPagerdutyServiceCustomFieldValue_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -455,7 +455,7 @@ func DataPagerdutyServiceCustomFieldValue_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataPagerdutyServiceCustomFieldValue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.dataPagerdutyServiceCustomFieldValue.DataPagerdutyServiceCustomFieldValue",
 		"tfResourceType",
 		&returns,
 	)
@@ -502,11 +502,11 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomFieldValue) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyServiceCustomFieldValue) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyServiceCustomFieldValue) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -630,11 +630,11 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomFieldValue) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyServiceCustomFieldValue) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyServiceCustomFieldValue) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

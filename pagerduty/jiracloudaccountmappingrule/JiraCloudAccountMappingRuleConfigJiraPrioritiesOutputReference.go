@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package jiracloudaccountmappingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jiracloudaccountmappingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jiracloudaccountmappingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference interface {
 
 // The jsii proxy struct for JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference
 type jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 }
 
 
-func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference {
+func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -205,7 +205,7 @@ func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference(terraform
 	j := jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -213,11 +213,11 @@ func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference(terraform
 	return &j
 }
 
-func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference_Override(j JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewJiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference_Override(j JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		j,
 	)
@@ -289,7 +289,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -457,8 +457,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -470,11 +470,11 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -486,7 +486,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (j *jsiiProxy_JiraCloudAccountMappingRuleConfigJiraPrioritiesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := j.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

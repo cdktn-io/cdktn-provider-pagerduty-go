@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyincidentcustomfield
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.dataPagerdutyIncidentCustomField.DataPagerdutyIncidentCustomField",
+		"@cdktn/provider-pagerduty.dataPagerdutyIncidentCustomField.DataPagerdutyIncidentCustomField",
 		reflect.TypeOf((*DataPagerdutyIncidentCustomField)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,12 +59,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataPagerdutyIncidentCustomField{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.dataPagerdutyIncidentCustomField.DataPagerdutyIncidentCustomFieldConfig",
+		"@cdktn/provider-pagerduty.dataPagerdutyIncidentCustomField.DataPagerdutyIncidentCustomFieldConfig",
 		reflect.TypeOf((*DataPagerdutyIncidentCustomFieldConfig)(nil)).Elem(),
 	)
 }

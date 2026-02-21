@@ -1,10 +1,10 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package extensionservicenow
 
 import (
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ExtensionServicenowConfig struct {
@@ -13,38 +13,38 @@ type ExtensionServicenowConfig struct {
 	// Experimental.
 	Count interface{} `field:"optional" json:"count" yaml:"count"`
 	// Experimental.
-	DependsOn *[]cdktf.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
 	// Experimental.
-	ForEach cdktf.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
 	// Experimental.
-	Lifecycle *cdktf.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
 	// Experimental.
-	Provider cdktf.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#extension_objects ExtensionServicenow#extension_objects}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#extension_objects ExtensionServicenow#extension_objects}.
 	ExtensionObjects *[]*string `field:"required" json:"extensionObjects" yaml:"extensionObjects"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#extension_schema ExtensionServicenow#extension_schema}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#extension_schema ExtensionServicenow#extension_schema}.
 	ExtensionSchema *string `field:"required" json:"extensionSchema" yaml:"extensionSchema"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#referer ExtensionServicenow#referer}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#referer ExtensionServicenow#referer}.
 	Referer *string `field:"required" json:"referer" yaml:"referer"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#snow_password ExtensionServicenow#snow_password}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#snow_password ExtensionServicenow#snow_password}.
 	SnowPassword *string `field:"required" json:"snowPassword" yaml:"snowPassword"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#snow_user ExtensionServicenow#snow_user}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#snow_user ExtensionServicenow#snow_user}.
 	SnowUser *string `field:"required" json:"snowUser" yaml:"snowUser"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#sync_options ExtensionServicenow#sync_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#sync_options ExtensionServicenow#sync_options}.
 	SyncOptions *string `field:"required" json:"syncOptions" yaml:"syncOptions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#target ExtensionServicenow#target}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#target ExtensionServicenow#target}.
 	Target *string `field:"required" json:"target" yaml:"target"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#task_type ExtensionServicenow#task_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#task_type ExtensionServicenow#task_type}.
 	TaskType *string `field:"required" json:"taskType" yaml:"taskType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#endpoint_url ExtensionServicenow#endpoint_url}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#endpoint_url ExtensionServicenow#endpoint_url}.
 	EndpointUrl *string `field:"optional" json:"endpointUrl" yaml:"endpointUrl"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#name ExtensionServicenow#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#name ExtensionServicenow#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#summary ExtensionServicenow#summary}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#summary ExtensionServicenow#summary}.
 	Summary *string `field:"optional" json:"summary" yaml:"summary"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/extension_servicenow#type ExtensionServicenow#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/extension_servicenow#type ExtensionServicenow#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

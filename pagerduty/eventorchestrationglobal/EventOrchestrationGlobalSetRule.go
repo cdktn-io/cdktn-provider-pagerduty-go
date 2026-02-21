@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationglobal
@@ -7,15 +7,15 @@ package eventorchestrationglobal
 type EventOrchestrationGlobalSetRule struct {
 	// actions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/event_orchestration_global#actions EventOrchestrationGlobal#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_global#actions EventOrchestrationGlobal#actions}
 	Actions *EventOrchestrationGlobalSetRuleActions `field:"required" json:"actions" yaml:"actions"`
 	// condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/event_orchestration_global#condition EventOrchestrationGlobal#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_global#condition EventOrchestrationGlobal#condition}
 	Condition interface{} `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/event_orchestration_global#disabled EventOrchestrationGlobal#disabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_global#disabled EventOrchestrationGlobal#disabled}.
 	Disabled interface{} `field:"optional" json:"disabled" yaml:"disabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/event_orchestration_global#label EventOrchestrationGlobal#label}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_global#label EventOrchestrationGlobal#label}.
 	Label *string `field:"optional" json:"label" yaml:"label"`
 }
 

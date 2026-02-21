@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceintegration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegration",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegration",
 		reflect.TypeOf((*ServiceIntegration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,20 +96,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegration{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationConfig",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationConfig",
 		reflect.TypeOf((*ServiceIntegrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailFilter",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailFilter",
 		reflect.TypeOf((*ServiceIntegrationEmailFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailFilterList",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailFilterList",
 		reflect.TypeOf((*ServiceIntegrationEmailFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,12 +126,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailFilterList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailFilterOutputReference",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailFilterOutputReference",
 		reflect.TypeOf((*ServiceIntegrationEmailFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bodyMode", GoGetter: "BodyMode"},
@@ -177,16 +177,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailFilterOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParser",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParser",
 		reflect.TypeOf((*ServiceIntegrationEmailParser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserList",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserList",
 		reflect.TypeOf((*ServiceIntegrationEmailParserList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -203,16 +203,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicate",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicate",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicateOutputReference",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicateOutputReference",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,16 +245,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserMatchPredicateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicate",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicate",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicatePredicate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicateList",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicateList",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicatePredicateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -271,12 +271,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserMatchPredicatePredicateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicateOutputReference",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicateOutputReference",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicatePredicateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -315,16 +315,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserMatchPredicatePredicateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicatePredicate",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicatePredicate",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicatePredicatePredicate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicatePredicateList",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicatePredicateList",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicatePredicatePredicateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -341,12 +341,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserMatchPredicatePredicatePredicateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicatePredicateOutputReference",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserMatchPredicatePredicatePredicateOutputReference",
 		reflect.TypeOf((*ServiceIntegrationEmailParserMatchPredicatePredicatePredicateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -379,12 +379,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserMatchPredicatePredicatePredicateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserOutputReference",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserOutputReference",
 		reflect.TypeOf((*ServiceIntegrationEmailParserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -421,16 +421,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserValueExtractor",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserValueExtractor",
 		reflect.TypeOf((*ServiceIntegrationEmailParserValueExtractor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserValueExtractorList",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserValueExtractorList",
 		reflect.TypeOf((*ServiceIntegrationEmailParserValueExtractorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -447,12 +447,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserValueExtractorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserValueExtractorOutputReference",
+		"@cdktn/provider-pagerduty.serviceIntegration.ServiceIntegrationEmailParserValueExtractorOutputReference",
 		reflect.TypeOf((*ServiceIntegrationEmailParserValueExtractorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -494,7 +494,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceIntegrationEmailParserValueExtractorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

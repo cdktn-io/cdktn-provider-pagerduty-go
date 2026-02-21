@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicecustomfieldvalue
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValue",
+		"@cdktn/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValue",
 		reflect.TypeOf((*ServiceCustomFieldValue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -64,20 +64,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceCustomFieldValue{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueConfig",
+		"@cdktn/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueConfig",
 		reflect.TypeOf((*ServiceCustomFieldValueConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueCustomFields",
+		"@cdktn/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueCustomFields",
 		reflect.TypeOf((*ServiceCustomFieldValueCustomFields)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueCustomFieldsList",
+		"@cdktn/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueCustomFieldsList",
 		reflect.TypeOf((*ServiceCustomFieldValueCustomFieldsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,12 +94,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceCustomFieldValueCustomFieldsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueCustomFieldsOutputReference",
+		"@cdktn/provider-pagerduty.serviceCustomFieldValue.ServiceCustomFieldValueCustomFieldsOutputReference",
 		reflect.TypeOf((*ServiceCustomFieldValueCustomFieldsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,7 +132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceCustomFieldValueCustomFieldsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

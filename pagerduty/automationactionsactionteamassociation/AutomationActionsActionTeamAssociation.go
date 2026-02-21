@@ -1,25 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationactionsactionteamassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/automationactionsactionteamassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/automationactionsactionteamassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/automation_actions_action_team_association pagerduty_automation_actions_action_team_association}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/automation_actions_action_team_association pagerduty_automation_actions_action_team_association}.
 type AutomationActionsActionTeamAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActionId() *string
 	SetActionId(val *string)
 	ActionIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type AutomationActionsActionTeamAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,15 +46,15 @@ type AutomationActionsActionTeamAssociation interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type AutomationActionsActionTeamAssociation interface {
 	SetTeamId(val *string)
 	TeamIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type AutomationActionsActionTeamAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,9 +96,9 @@ type AutomationActionsActionTeamAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -132,7 +132,7 @@ type AutomationActionsActionTeamAssociation interface {
 
 // The jsii proxy struct for AutomationActionsActionTeamAssociation
 type jsiiProxy_AutomationActionsActionTeamAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_AutomationActionsActionTeamAssociation) ActionId() *string {
@@ -155,8 +155,8 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation) ActionIdInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation) DependsOn() *[]*strin
 	return returns
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation) Node() constructs.Nod
 	return returns
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation) TeamIdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -356,7 +356,7 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/automation_actions_action_team_association pagerduty_automation_actions_action_team_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/automation_actions_action_team_association pagerduty_automation_actions_action_team_association} Resource.
 func NewAutomationActionsActionTeamAssociation(scope constructs.Construct, id *string, config *AutomationActionsActionTeamAssociationConfig) AutomationActionsActionTeamAssociation {
 	_init_.Initialize()
 
@@ -366,7 +366,7 @@ func NewAutomationActionsActionTeamAssociation(scope constructs.Construct, id *s
 	j := jsiiProxy_AutomationActionsActionTeamAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -374,12 +374,12 @@ func NewAutomationActionsActionTeamAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/automation_actions_action_team_association pagerduty_automation_actions_action_team_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/automation_actions_action_team_association pagerduty_automation_actions_action_team_association} Resource.
 func NewAutomationActionsActionTeamAssociation_Override(a AutomationActionsActionTeamAssociation, scope constructs.Construct, id *string, config *AutomationActionsActionTeamAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -426,7 +426,7 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetDependsOn(val *[]*s
 	)
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -445,7 +445,7 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -456,7 +456,7 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetLifecycle(val *cdkt
 	)
 }
 
-func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -486,17 +486,17 @@ func (j *jsiiProxy_AutomationActionsActionTeamAssociation)SetTeamId(val *string)
 	)
 }
 
-// Generates CDKTF code for importing a AutomationActionsActionTeamAssociation resource upon running "cdktf plan <stack-name>".
-func AutomationActionsActionTeamAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AutomationActionsActionTeamAssociation resource upon running "cdktn plan <stack-name>".
+func AutomationActionsActionTeamAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAutomationActionsActionTeamAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -531,7 +531,7 @@ func AutomationActionsActionTeamAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func AutomationActionsActionTeamAssociation_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -569,7 +569,7 @@ func AutomationActionsActionTeamAssociation_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -582,7 +582,7 @@ func AutomationActionsActionTeamAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionTeamAssociation.AutomationActionsActionTeamAssociation",
 		"tfResourceType",
 		&returns,
 	)
@@ -627,11 +627,11 @@ func (a *jsiiProxy_AutomationActionsActionTeamAssociation) GetAnyMapAttribute(te
 	return returns
 }
 
-func (a *jsiiProxy_AutomationActionsActionTeamAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationActionsActionTeamAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -768,7 +768,7 @@ func (a *jsiiProxy_AutomationActionsActionTeamAssociation) HasResourceMove() int
 	return returns
 }
 
-func (a *jsiiProxy_AutomationActionsActionTeamAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AutomationActionsActionTeamAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -779,11 +779,11 @@ func (a *jsiiProxy_AutomationActionsActionTeamAssociation) ImportFrom(id *string
 	)
 }
 
-func (a *jsiiProxy_AutomationActionsActionTeamAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationActionsActionTeamAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

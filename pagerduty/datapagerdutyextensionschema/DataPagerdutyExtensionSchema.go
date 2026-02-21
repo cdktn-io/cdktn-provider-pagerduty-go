@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datapagerdutyextensionschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/datapagerdutyextensionschema/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyextensionschema/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/extension_schema pagerduty_extension_schema}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/extension_schema pagerduty_extension_schema}.
 type DataPagerdutyExtensionSchema interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,31 +28,31 @@ type DataPagerdutyExtensionSchema interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -63,7 +63,7 @@ type DataPagerdutyExtensionSchema interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,7 +79,7 @@ type DataPagerdutyExtensionSchema interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -102,11 +102,11 @@ type DataPagerdutyExtensionSchema interface {
 
 // The jsii proxy struct for DataPagerdutyExtensionSchema
 type jsiiProxy_DataPagerdutyExtensionSchema struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataPagerdutyExtensionSchema) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -145,8 +145,8 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataPagerdutyExtensionSchema) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -185,8 +185,8 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataPagerdutyExtensionSchema) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -225,8 +225,8 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataPagerdutyExtensionSchema) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -245,8 +245,8 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataPagerdutyExtensionSchema) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -286,7 +286,7 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/extension_schema pagerduty_extension_schema} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/extension_schema pagerduty_extension_schema} Data Source.
 func NewDataPagerdutyExtensionSchema(scope constructs.Construct, id *string, config *DataPagerdutyExtensionSchemaConfig) DataPagerdutyExtensionSchema {
 	_init_.Initialize()
 
@@ -296,7 +296,7 @@ func NewDataPagerdutyExtensionSchema(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataPagerdutyExtensionSchema{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -304,12 +304,12 @@ func NewDataPagerdutyExtensionSchema(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/data-sources/extension_schema pagerduty_extension_schema} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/extension_schema pagerduty_extension_schema} Data Source.
 func NewDataPagerdutyExtensionSchema_Override(d DataPagerdutyExtensionSchema, scope constructs.Construct, id *string, config *DataPagerdutyExtensionSchemaConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetForEach(val cdktf.ITerraformI
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,7 +364,7 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -372,17 +372,17 @@ func (j *jsiiProxy_DataPagerdutyExtensionSchema)SetProvider(val cdktf.TerraformP
 	)
 }
 
-// Generates CDKTF code for importing a DataPagerdutyExtensionSchema resource upon running "cdktf plan <stack-name>".
-func DataPagerdutyExtensionSchema_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataPagerdutyExtensionSchema resource upon running "cdktn plan <stack-name>".
+func DataPagerdutyExtensionSchema_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataPagerdutyExtensionSchema_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -417,7 +417,7 @@ func DataPagerdutyExtensionSchema_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -436,7 +436,7 @@ func DataPagerdutyExtensionSchema_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -455,7 +455,7 @@ func DataPagerdutyExtensionSchema_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataPagerdutyExtensionSchema_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
+		"@cdktn/provider-pagerduty.dataPagerdutyExtensionSchema.DataPagerdutyExtensionSchema",
 		"tfResourceType",
 		&returns,
 	)
@@ -502,11 +502,11 @@ func (d *jsiiProxy_DataPagerdutyExtensionSchema) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyExtensionSchema) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyExtensionSchema) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -630,11 +630,11 @@ func (d *jsiiProxy_DataPagerdutyExtensionSchema) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataPagerdutyExtensionSchema) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataPagerdutyExtensionSchema) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

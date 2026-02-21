@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package incidentworkflow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflow",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflow",
 		reflect.TypeOf((*IncidentWorkflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,24 +76,24 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflow{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowConfig",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowConfig",
 		reflect.TypeOf((*IncidentWorkflowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStep",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStep",
 		reflect.TypeOf((*IncidentWorkflowStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInput",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInput",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputList",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,12 +110,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInlineStepsInputList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputOutputReference",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,20 +148,20 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInlineStepsInputOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStep",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStep",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepInput",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepInput",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputStepInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepInputList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepInputList",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputStepInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -178,12 +178,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInlineStepsInputStepInputList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepInputOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepInputOutputReference",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputStepInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,12 +215,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInlineStepsInputStepInputOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepList",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputStepList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -237,12 +237,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInlineStepsInputStepList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInlineStepsInputStepOutputReference",
 		reflect.TypeOf((*IncidentWorkflowStepInlineStepsInputStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -277,16 +277,16 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInlineStepsInputStepOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInput",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInput",
 		reflect.TypeOf((*IncidentWorkflowStepInput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputList",
 		reflect.TypeOf((*IncidentWorkflowStepInputList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -303,12 +303,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInputList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepInputOutputReference",
 		reflect.TypeOf((*IncidentWorkflowStepInputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -340,12 +340,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepInputOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepList",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepList",
 		reflect.TypeOf((*IncidentWorkflowStepList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -362,12 +362,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepOutputReference",
+		"@cdktn/provider-pagerduty.incidentWorkflow.IncidentWorkflowStepOutputReference",
 		reflect.TypeOf((*IncidentWorkflowStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -407,7 +407,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IncidentWorkflowStepOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

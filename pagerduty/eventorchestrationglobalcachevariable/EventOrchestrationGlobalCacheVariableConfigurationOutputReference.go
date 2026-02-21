@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventorchestrationglobalcachevariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/eventorchestrationglobalcachevariable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/eventorchestrationglobalcachevariable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventOrchestrationGlobalCacheVariableConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type EventOrchestrationGlobalCacheVariableConfigurationOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TtlSeconds() *float64
 	SetTtlSeconds(val *float64)
 	TtlSecondsInput() *float64
@@ -60,7 +60,7 @@ type EventOrchestrationGlobalCacheVariableConfigurationOutputReference interface
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type EventOrchestrationGlobalCacheVariableConfigurationOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDataType()
 	ResetRegex()
 	ResetSource()
 	ResetTtlSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type EventOrchestrationGlobalCacheVariableConfigurationOutputReference interface
 
 // The jsii proxy struct for EventOrchestrationGlobalCacheVariableConfigurationOutputReference
 type jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -218,8 +218,8 @@ func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 }
 
 
-func NewEventOrchestrationGlobalCacheVariableConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EventOrchestrationGlobalCacheVariableConfigurationOutputReference {
+func NewEventOrchestrationGlobalCacheVariableConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EventOrchestrationGlobalCacheVariableConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventOrchestrationGlobalCacheVariableConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -278,7 +278,7 @@ func NewEventOrchestrationGlobalCacheVariableConfigurationOutputReference(terraf
 	j := jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationGlobalCacheVariable.EventOrchestrationGlobalCacheVariableConfigurationOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationGlobalCacheVariable.EventOrchestrationGlobalCacheVariableConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -286,11 +286,11 @@ func NewEventOrchestrationGlobalCacheVariableConfigurationOutputReference(terraf
 	return &j
 }
 
-func NewEventOrchestrationGlobalCacheVariableConfigurationOutputReference_Override(e EventOrchestrationGlobalCacheVariableConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEventOrchestrationGlobalCacheVariableConfigurationOutputReference_Override(e EventOrchestrationGlobalCacheVariableConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.eventOrchestrationGlobalCacheVariable.EventOrchestrationGlobalCacheVariableConfigurationOutputReference",
+		"@cdktn/provider-pagerduty.eventOrchestrationGlobalCacheVariable.EventOrchestrationGlobalCacheVariableConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)
@@ -373,7 +373,7 @@ func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 	)
 }
 
-func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -563,8 +563,8 @@ func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -576,11 +576,11 @@ func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 	return returns
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -624,7 +624,7 @@ func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputRefer
 	)
 }
 
-func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventOrchestrationGlobalCacheVariableConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

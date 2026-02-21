@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationactionsactionserviceassociation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-pagerduty.automationActionsActionServiceAssociation.AutomationActionsActionServiceAssociation",
+		"@cdktn/provider-pagerduty.automationActionsActionServiceAssociation.AutomationActionsActionServiceAssociation",
 		reflect.TypeOf((*AutomationActionsActionServiceAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionId", GoGetter: "ActionId"},
@@ -65,12 +65,12 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AutomationActionsActionServiceAssociation{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-pagerduty.automationActionsActionServiceAssociation.AutomationActionsActionServiceAssociationConfig",
+		"@cdktn/provider-pagerduty.automationActionsActionServiceAssociation.AutomationActionsActionServiceAssociationConfig",
 		reflect.TypeOf((*AutomationActionsActionServiceAssociationConfig)(nil)).Elem(),
 	)
 }

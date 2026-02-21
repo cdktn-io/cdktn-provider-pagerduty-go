@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateGetPar
 	return nil
 }
 
-func (e *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventOrchestrationServiceSetRuleConditionList) validateSetWra
 	return nil
 }
 
-func validateNewEventOrchestrationServiceSetRuleConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventOrchestrationServiceSetRuleConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

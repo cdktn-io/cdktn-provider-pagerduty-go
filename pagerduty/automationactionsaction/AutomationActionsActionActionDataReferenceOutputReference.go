@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationactionsaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/automationactionsaction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/automationactionsaction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationActionsActionActionDataReferenceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -52,15 +52,15 @@ type AutomationActionsActionActionDataReferenceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type AutomationActionsActionActionDataReferenceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetInvocationCommand()
 	ResetProcessAutomationJobArguments()
 	ResetProcessAutomationJobId()
@@ -86,7 +86,7 @@ type AutomationActionsActionActionDataReferenceOutputReference interface {
 	ResetScript()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type AutomationActionsActionActionDataReferenceOutputReference interface {
 
 // The jsii proxy struct for AutomationActionsActionActionDataReferenceOutputReference
 type jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Te
 }
 
 
-func NewAutomationActionsActionActionDataReferenceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomationActionsActionActionDataReferenceOutputReference {
+func NewAutomationActionsActionActionDataReferenceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomationActionsActionActionDataReferenceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomationActionsActionActionDataReferenceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -279,7 +279,7 @@ func NewAutomationActionsActionActionDataReferenceOutputReference(terraformResou
 	j := jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.automationActionsAction.AutomationActionsActionActionDataReferenceOutputReference",
+		"@cdktn/provider-pagerduty.automationActionsAction.AutomationActionsActionActionDataReferenceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -287,11 +287,11 @@ func NewAutomationActionsActionActionDataReferenceOutputReference(terraformResou
 	return &j
 }
 
-func NewAutomationActionsActionActionDataReferenceOutputReference_Override(a AutomationActionsActionActionDataReferenceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomationActionsActionActionDataReferenceOutputReference_Override(a AutomationActionsActionActionDataReferenceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.automationActionsAction.AutomationActionsActionActionDataReferenceOutputReference",
+		"@cdktn/provider-pagerduty.automationActionsAction.AutomationActionsActionActionDataReferenceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)
@@ -396,7 +396,7 @@ func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Ge
 	return returns
 }
 
-func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -564,8 +564,8 @@ func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Ge
 	return returns
 }
 
-func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -577,11 +577,11 @@ func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) In
 	return returns
 }
 
-func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -633,7 +633,7 @@ func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Re
 	)
 }
 
-func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationActionsActionActionDataReferenceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

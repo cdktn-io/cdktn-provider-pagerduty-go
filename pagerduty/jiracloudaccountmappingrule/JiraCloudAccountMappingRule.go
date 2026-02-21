@@ -1,27 +1,27 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package jiracloudaccountmappingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-pagerduty-go/pagerduty/v14/jiracloudaccountmappingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jiracloudaccountmappingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule}.
 type JiraCloudAccountMappingRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountMapping() *string
 	SetAccountMapping(val *string)
 	AccountMappingInput() *string
 	AutocreateJqlDisabledReason() *string
 	AutocreateJqlDisabledUntil() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Config() JiraCloudAccountMappingRuleConfigAOutputReference
 	ConfigInput() interface{}
 	// Experimental.
@@ -42,27 +42,27 @@ type JiraCloudAccountMappingRule interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type JiraCloudAccountMappingRule interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type JiraCloudAccountMappingRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,9 +101,9 @@ type JiraCloudAccountMappingRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -139,7 +139,7 @@ type JiraCloudAccountMappingRule interface {
 
 // The jsii proxy struct for JiraCloudAccountMappingRule
 type jsiiProxy_JiraCloudAccountMappingRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_JiraCloudAccountMappingRule) AccountMapping() *string {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) AutocreateJqlDisabledUntil() *st
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_JiraCloudAccountMappingRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -272,8 +272,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_JiraCloudAccountMappingRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_JiraCloudAccountMappingRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_JiraCloudAccountMappingRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_JiraCloudAccountMappingRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -413,7 +413,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
 func NewJiraCloudAccountMappingRule(scope constructs.Construct, id *string, config *JiraCloudAccountMappingRuleConfig) JiraCloudAccountMappingRule {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewJiraCloudAccountMappingRule(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_JiraCloudAccountMappingRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -431,12 +431,12 @@ func NewJiraCloudAccountMappingRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.30.8/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
 func NewJiraCloudAccountMappingRule_Override(j JiraCloudAccountMappingRule, scope constructs.Construct, id *string, config *JiraCloudAccountMappingRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		[]interface{}{scope, id, config},
 		j,
 	)
@@ -494,7 +494,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_JiraCloudAccountMappingRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -502,7 +502,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule)SetForEach(val cdktf.ITerraformIt
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_JiraCloudAccountMappingRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -524,7 +524,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_JiraCloudAccountMappingRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -543,17 +543,17 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule)SetProvisioners(val *[]interface{
 	)
 }
 
-// Generates CDKTF code for importing a JiraCloudAccountMappingRule resource upon running "cdktf plan <stack-name>".
-func JiraCloudAccountMappingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a JiraCloudAccountMappingRule resource upon running "cdktn plan <stack-name>".
+func JiraCloudAccountMappingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateJiraCloudAccountMappingRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func JiraCloudAccountMappingRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func JiraCloudAccountMappingRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func JiraCloudAccountMappingRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func JiraCloudAccountMappingRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
+		"@cdktn/provider-pagerduty.jiraCloudAccountMappingRule.JiraCloudAccountMappingRule",
 		"tfResourceType",
 		&returns,
 	)
@@ -684,11 +684,11 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JiraCloudAccountMappingRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -825,7 +825,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (j *jsiiProxy_JiraCloudAccountMappingRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := j.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -836,11 +836,11 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) ImportFrom(id *string, provider 
 	)
 }
 
-func (j *jsiiProxy_JiraCloudAccountMappingRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JiraCloudAccountMappingRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
