@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping}.
 type DataPagerdutyJiraCloudAccountMapping interface {
 	cdktn.TerraformDataSource
 	BaseUrl() *string
@@ -98,6 +98,15 @@ type DataPagerdutyJiraCloudAccountMapping interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataPagerdutyJiraCloudAccountMapping
@@ -286,7 +295,7 @@ func (j *jsiiProxy_DataPagerdutyJiraCloudAccountMapping) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
 func NewDataPagerdutyJiraCloudAccountMapping(scope constructs.Construct, id *string, config *DataPagerdutyJiraCloudAccountMappingConfig) DataPagerdutyJiraCloudAccountMapping {
 	_init_.Initialize()
 
@@ -304,7 +313,7 @@ func NewDataPagerdutyJiraCloudAccountMapping(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
 func NewDataPagerdutyJiraCloudAccountMapping_Override(d DataPagerdutyJiraCloudAccountMapping, scope constructs.Construct, id *string, config *DataPagerdutyJiraCloudAccountMappingConfig) {
 	_init_.Initialize()
 
@@ -737,6 +746,24 @@ func (d *jsiiProxy_DataPagerdutyJiraCloudAccountMapping) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataPagerdutyJiraCloudAccountMapping) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

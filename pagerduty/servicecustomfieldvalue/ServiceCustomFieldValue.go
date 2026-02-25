@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_custom_field_value pagerduty_service_custom_field_value}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/service_custom_field_value pagerduty_service_custom_field_value}.
 type ServiceCustomFieldValue interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -125,6 +125,15 @@ type ServiceCustomFieldValue interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServiceCustomFieldValue
@@ -343,7 +352,7 @@ func (j *jsiiProxy_ServiceCustomFieldValue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_custom_field_value pagerduty_service_custom_field_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/service_custom_field_value pagerduty_service_custom_field_value} Resource.
 func NewServiceCustomFieldValue(scope constructs.Construct, id *string, config *ServiceCustomFieldValueConfig) ServiceCustomFieldValue {
 	_init_.Initialize()
 
@@ -361,7 +370,7 @@ func NewServiceCustomFieldValue(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_custom_field_value pagerduty_service_custom_field_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/service_custom_field_value pagerduty_service_custom_field_value} Resource.
 func NewServiceCustomFieldValue_Override(s ServiceCustomFieldValue, scope constructs.Construct, id *string, config *ServiceCustomFieldValueConfig) {
 	_init_.Initialize()
 
@@ -895,6 +904,24 @@ func (s *jsiiProxy_ServiceCustomFieldValue) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServiceCustomFieldValue) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/event_orchestrations pagerduty_event_orchestrations}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/event_orchestrations pagerduty_event_orchestrations}.
 type DataPagerdutyEventOrchestrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -101,6 +101,15 @@ type DataPagerdutyEventOrchestrations interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataPagerdutyEventOrchestrations
@@ -299,7 +308,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrations) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/event_orchestrations pagerduty_event_orchestrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/event_orchestrations pagerduty_event_orchestrations} Data Source.
 func NewDataPagerdutyEventOrchestrations(scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationsConfig) DataPagerdutyEventOrchestrations {
 	_init_.Initialize()
 
@@ -317,7 +326,7 @@ func NewDataPagerdutyEventOrchestrations(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/event_orchestrations pagerduty_event_orchestrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/event_orchestrations pagerduty_event_orchestrations} Data Source.
 func NewDataPagerdutyEventOrchestrations_Override(d DataPagerdutyEventOrchestrations, scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationsConfig) {
 	_init_.Initialize()
 
@@ -769,6 +778,24 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrations) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataPagerdutyEventOrchestrations) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

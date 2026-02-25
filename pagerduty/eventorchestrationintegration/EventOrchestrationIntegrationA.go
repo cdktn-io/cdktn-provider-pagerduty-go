@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_integration pagerduty_event_orchestration_integration}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/event_orchestration_integration pagerduty_event_orchestration_integration}.
 type EventOrchestrationIntegrationA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -126,6 +126,15 @@ type EventOrchestrationIntegrationA interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EventOrchestrationIntegrationA
@@ -354,7 +363,7 @@ func (j *jsiiProxy_EventOrchestrationIntegrationA) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_integration pagerduty_event_orchestration_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/event_orchestration_integration pagerduty_event_orchestration_integration} Resource.
 func NewEventOrchestrationIntegrationA(scope constructs.Construct, id *string, config *EventOrchestrationIntegrationAConfig) EventOrchestrationIntegrationA {
 	_init_.Initialize()
 
@@ -372,7 +381,7 @@ func NewEventOrchestrationIntegrationA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/event_orchestration_integration pagerduty_event_orchestration_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/event_orchestration_integration pagerduty_event_orchestration_integration} Resource.
 func NewEventOrchestrationIntegrationA_Override(e EventOrchestrationIntegrationA, scope constructs.Construct, id *string, config *EventOrchestrationIntegrationAConfig) {
 	_init_.Initialize()
 
@@ -906,6 +915,24 @@ func (e *jsiiProxy_EventOrchestrationIntegrationA) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EventOrchestrationIntegrationA) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

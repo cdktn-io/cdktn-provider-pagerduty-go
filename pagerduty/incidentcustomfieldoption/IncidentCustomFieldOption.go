@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_custom_field_option pagerduty_incident_custom_field_option}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/incident_custom_field_option pagerduty_incident_custom_field_option}.
 type IncidentCustomFieldOption interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -131,6 +131,15 @@ type IncidentCustomFieldOption interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IncidentCustomFieldOption
@@ -379,7 +388,7 @@ func (j *jsiiProxy_IncidentCustomFieldOption) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_custom_field_option pagerduty_incident_custom_field_option} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/incident_custom_field_option pagerduty_incident_custom_field_option} Resource.
 func NewIncidentCustomFieldOption(scope constructs.Construct, id *string, config *IncidentCustomFieldOptionConfig) IncidentCustomFieldOption {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewIncidentCustomFieldOption(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_custom_field_option pagerduty_incident_custom_field_option} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/incident_custom_field_option pagerduty_incident_custom_field_option} Resource.
 func NewIncidentCustomFieldOption_Override(i IncidentCustomFieldOption, scope constructs.Construct, id *string, config *IncidentCustomFieldOptionConfig) {
 	_init_.Initialize()
 
@@ -961,6 +970,24 @@ func (i *jsiiProxy_IncidentCustomFieldOption) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IncidentCustomFieldOption) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

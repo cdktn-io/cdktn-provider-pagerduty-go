@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_workflow pagerduty_incident_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/incident_workflow pagerduty_incident_workflow}.
 type IncidentWorkflow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -141,6 +141,15 @@ type IncidentWorkflow interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IncidentWorkflow
@@ -429,7 +438,7 @@ func (j *jsiiProxy_IncidentWorkflow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_workflow pagerduty_incident_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/incident_workflow pagerduty_incident_workflow} Resource.
 func NewIncidentWorkflow(scope constructs.Construct, id *string, config *IncidentWorkflowConfig) IncidentWorkflow {
 	_init_.Initialize()
 
@@ -447,7 +456,7 @@ func NewIncidentWorkflow(scope constructs.Construct, id *string, config *Inciden
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/incident_workflow pagerduty_incident_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/incident_workflow pagerduty_incident_workflow} Resource.
 func NewIncidentWorkflow_Override(i IncidentWorkflow, scope constructs.Construct, id *string, config *IncidentWorkflowConfig) {
 	_init_.Initialize()
 
@@ -1065,6 +1074,24 @@ func (i *jsiiProxy_IncidentWorkflow) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IncidentWorkflow) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

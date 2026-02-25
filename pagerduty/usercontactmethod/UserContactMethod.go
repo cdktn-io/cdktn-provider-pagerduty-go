@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/user_contact_method pagerduty_user_contact_method}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/user_contact_method pagerduty_user_contact_method}.
 type UserContactMethod interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -145,6 +145,15 @@ type UserContactMethod interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for UserContactMethod
@@ -483,7 +492,7 @@ func (j *jsiiProxy_UserContactMethod) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
 func NewUserContactMethod(scope constructs.Construct, id *string, config *UserContactMethodConfig) UserContactMethod {
 	_init_.Initialize()
 
@@ -501,7 +510,7 @@ func NewUserContactMethod(scope constructs.Construct, id *string, config *UserCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/user_contact_method pagerduty_user_contact_method} Resource.
 func NewUserContactMethod_Override(u UserContactMethod, scope constructs.Construct, id *string, config *UserContactMethodConfig) {
 	_init_.Initialize()
 
@@ -1114,6 +1123,24 @@ func (u *jsiiProxy_UserContactMethod) ToTerraform() interface{} {
 		u,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (u *jsiiProxy_UserContactMethod) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		u,
+		"with",
+		args,
 		&returns,
 	)
 

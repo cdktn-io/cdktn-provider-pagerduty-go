@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_integration pagerduty_service_integration}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/service_integration pagerduty_service_integration}.
 type ServiceIntegration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -166,6 +166,15 @@ type ServiceIntegration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServiceIntegration
@@ -584,7 +593,7 @@ func (j *jsiiProxy_ServiceIntegration) VendorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_integration pagerduty_service_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/service_integration pagerduty_service_integration} Resource.
 func NewServiceIntegration(scope constructs.Construct, id *string, config *ServiceIntegrationConfig) ServiceIntegration {
 	_init_.Initialize()
 
@@ -602,7 +611,7 @@ func NewServiceIntegration(scope constructs.Construct, id *string, config *Servi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/service_integration pagerduty_service_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/service_integration pagerduty_service_integration} Resource.
 func NewServiceIntegration_Override(s ServiceIntegration, scope constructs.Construct, id *string, config *ServiceIntegrationConfig) {
 	_init_.Initialize()
 
@@ -1334,6 +1343,24 @@ func (s *jsiiProxy_ServiceIntegration) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServiceIntegration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

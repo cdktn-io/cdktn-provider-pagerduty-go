@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/schedule pagerduty_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/schedule pagerduty_schedule}.
 type DataPagerdutySchedule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -97,6 +97,15 @@ type DataPagerdutySchedule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataPagerdutySchedule
@@ -275,7 +284,7 @@ func (j *jsiiProxy_DataPagerdutySchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/schedule pagerduty_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/schedule pagerduty_schedule} Data Source.
 func NewDataPagerdutySchedule(scope constructs.Construct, id *string, config *DataPagerdutyScheduleConfig) DataPagerdutySchedule {
 	_init_.Initialize()
 
@@ -293,7 +302,7 @@ func NewDataPagerdutySchedule(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/schedule pagerduty_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/schedule pagerduty_schedule} Data Source.
 func NewDataPagerdutySchedule_Override(d DataPagerdutySchedule, scope constructs.Construct, id *string, config *DataPagerdutyScheduleConfig) {
 	_init_.Initialize()
 
@@ -726,6 +735,24 @@ func (d *jsiiProxy_DataPagerdutySchedule) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataPagerdutySchedule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

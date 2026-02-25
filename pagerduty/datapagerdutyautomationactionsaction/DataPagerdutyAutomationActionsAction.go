@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/automation_actions_action pagerduty_automation_actions_action}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/automation_actions_action pagerduty_automation_actions_action}.
 type DataPagerdutyAutomationActionsAction interface {
 	cdktn.TerraformDataSource
 	ActionClassification() *string
@@ -143,6 +143,15 @@ type DataPagerdutyAutomationActionsAction interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataPagerdutyAutomationActionsAction
@@ -561,7 +570,7 @@ func (j *jsiiProxy_DataPagerdutyAutomationActionsAction) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/automation_actions_action pagerduty_automation_actions_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/automation_actions_action pagerduty_automation_actions_action} Data Source.
 func NewDataPagerdutyAutomationActionsAction(scope constructs.Construct, id *string, config *DataPagerdutyAutomationActionsActionConfig) DataPagerdutyAutomationActionsAction {
 	_init_.Initialize()
 
@@ -579,7 +588,7 @@ func NewDataPagerdutyAutomationActionsAction(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/automation_actions_action pagerduty_automation_actions_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/automation_actions_action pagerduty_automation_actions_action} Data Source.
 func NewDataPagerdutyAutomationActionsAction_Override(d DataPagerdutyAutomationActionsAction, scope constructs.Construct, id *string, config *DataPagerdutyAutomationActionsActionConfig) {
 	_init_.Initialize()
 
@@ -1221,6 +1230,24 @@ func (d *jsiiProxy_DataPagerdutyAutomationActionsAction) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataPagerdutyAutomationActionsAction) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

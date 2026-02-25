@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/incident_type pagerduty_incident_type}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/incident_type pagerduty_incident_type}.
 type DataPagerdutyIncidentType interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -102,6 +102,15 @@ type DataPagerdutyIncidentType interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataPagerdutyIncidentType
@@ -330,7 +339,7 @@ func (j *jsiiProxy_DataPagerdutyIncidentType) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
 func NewDataPagerdutyIncidentType(scope constructs.Construct, id *string, config *DataPagerdutyIncidentTypeConfig) DataPagerdutyIncidentType {
 	_init_.Initialize()
 
@@ -348,7 +357,7 @@ func NewDataPagerdutyIncidentType(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
 func NewDataPagerdutyIncidentType_Override(d DataPagerdutyIncidentType, scope constructs.Construct, id *string, config *DataPagerdutyIncidentTypeConfig) {
 	_init_.Initialize()
 
@@ -781,6 +790,24 @@ func (d *jsiiProxy_DataPagerdutyIncidentType) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataPagerdutyIncidentType) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

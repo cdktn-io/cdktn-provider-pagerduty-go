@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association}.
 type AutomationActionsActionServiceAssociation interface {
 	cdktn.TerraformResource
 	ActionId() *string
@@ -128,6 +128,15 @@ type AutomationActionsActionServiceAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationActionsActionServiceAssociation
@@ -356,7 +365,7 @@ func (j *jsiiProxy_AutomationActionsActionServiceAssociation) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
 func NewAutomationActionsActionServiceAssociation(scope constructs.Construct, id *string, config *AutomationActionsActionServiceAssociationConfig) AutomationActionsActionServiceAssociation {
 	_init_.Initialize()
 
@@ -374,7 +383,7 @@ func NewAutomationActionsActionServiceAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
 func NewAutomationActionsActionServiceAssociation_Override(a AutomationActionsActionServiceAssociation, scope constructs.Construct, id *string, config *AutomationActionsActionServiceAssociationConfig) {
 	_init_.Initialize()
 
@@ -927,6 +936,24 @@ func (a *jsiiProxy_AutomationActionsActionServiceAssociation) ToTerraform() inte
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationActionsActionServiceAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

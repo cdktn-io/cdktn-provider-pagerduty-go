@@ -57,6 +57,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useAppOauthScopedTokenInput", GoGetter: "UseAppOauthScopedTokenInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userToken", GoGetter: "UserToken"},
 			_jsii_.MemberProperty{JsiiProperty: "userTokenInput", GoGetter: "UserTokenInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PagerdutyProvider{}

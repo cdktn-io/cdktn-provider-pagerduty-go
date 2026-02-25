@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/service_custom_field pagerduty_service_custom_field}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/service_custom_field pagerduty_service_custom_field}.
 type DataPagerdutyServiceCustomField interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -107,6 +107,15 @@ type DataPagerdutyServiceCustomField interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataPagerdutyServiceCustomField
@@ -385,7 +394,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomField) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/service_custom_field pagerduty_service_custom_field} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/service_custom_field pagerduty_service_custom_field} Data Source.
 func NewDataPagerdutyServiceCustomField(scope constructs.Construct, id *string, config *DataPagerdutyServiceCustomFieldConfig) DataPagerdutyServiceCustomField {
 	_init_.Initialize()
 
@@ -403,7 +412,7 @@ func NewDataPagerdutyServiceCustomField(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.0/docs/data-sources/service_custom_field pagerduty_service_custom_field} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/service_custom_field pagerduty_service_custom_field} Data Source.
 func NewDataPagerdutyServiceCustomField_Override(d DataPagerdutyServiceCustomField, scope constructs.Construct, id *string, config *DataPagerdutyServiceCustomFieldConfig) {
 	_init_.Initialize()
 
@@ -836,6 +845,24 @@ func (d *jsiiProxy_DataPagerdutyServiceCustomField) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataPagerdutyServiceCustomField) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 
