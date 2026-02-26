@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/tag pagerduty_tag}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/tag pagerduty_tag}.
 type Tag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -351,7 +351,7 @@ func (j *jsiiProxy_Tag) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/tag pagerduty_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/tag pagerduty_tag} Resource.
 func NewTag(scope constructs.Construct, id *string, config *TagConfig) Tag {
 	_init_.Initialize()
 
@@ -369,7 +369,7 @@ func NewTag(scope constructs.Construct, id *string, config *TagConfig) Tag {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/resources/tag pagerduty_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/tag pagerduty_tag} Resource.
 func NewTag_Override(t Tag, scope constructs.Construct, id *string, config *TagConfig) {
 	_init_.Initialize()
 

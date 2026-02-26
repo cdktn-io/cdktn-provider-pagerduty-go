@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/user_contact_method pagerduty_user_contact_method}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/data-sources/user_contact_method pagerduty_user_contact_method}.
 type DataPagerdutyUserContactMethod interface {
 	cdktn.TerraformDataSource
 	Address() *string
@@ -409,7 +409,7 @@ func (j *jsiiProxy_DataPagerdutyUserContactMethod) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/user_contact_method pagerduty_user_contact_method} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/data-sources/user_contact_method pagerduty_user_contact_method} Data Source.
 func NewDataPagerdutyUserContactMethod(scope constructs.Construct, id *string, config *DataPagerdutyUserContactMethodConfig) DataPagerdutyUserContactMethod {
 	_init_.Initialize()
 
@@ -427,7 +427,7 @@ func NewDataPagerdutyUserContactMethod(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.1/docs/data-sources/user_contact_method pagerduty_user_contact_method} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/data-sources/user_contact_method pagerduty_user_contact_method} Data Source.
 func NewDataPagerdutyUserContactMethod_Override(d DataPagerdutyUserContactMethod, scope constructs.Construct, id *string, config *DataPagerdutyUserContactMethodConfig) {
 	_init_.Initialize()
 
