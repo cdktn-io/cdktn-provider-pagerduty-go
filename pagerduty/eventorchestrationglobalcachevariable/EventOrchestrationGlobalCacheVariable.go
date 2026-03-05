@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable}.
 type EventOrchestrationGlobalCacheVariable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_EventOrchestrationGlobalCacheVariable) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Resource.
 func NewEventOrchestrationGlobalCacheVariable(scope constructs.Construct, id *string, config *EventOrchestrationGlobalCacheVariableConfig) EventOrchestrationGlobalCacheVariable {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewEventOrchestrationGlobalCacheVariable(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Resource.
 func NewEventOrchestrationGlobalCacheVariable_Override(e EventOrchestrationGlobalCacheVariable, scope constructs.Construct, id *string, config *EventOrchestrationGlobalCacheVariableConfig) {
 	_init_.Initialize()
 

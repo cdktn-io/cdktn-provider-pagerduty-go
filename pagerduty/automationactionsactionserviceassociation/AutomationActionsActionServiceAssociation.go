@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association}.
 type AutomationActionsActionServiceAssociation interface {
 	cdktn.TerraformResource
 	ActionId() *string
@@ -365,7 +365,7 @@ func (j *jsiiProxy_AutomationActionsActionServiceAssociation) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
 func NewAutomationActionsActionServiceAssociation(scope constructs.Construct, id *string, config *AutomationActionsActionServiceAssociationConfig) AutomationActionsActionServiceAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewAutomationActionsActionServiceAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/automation_actions_action_service_association pagerduty_automation_actions_action_service_association} Resource.
 func NewAutomationActionsActionServiceAssociation_Override(a AutomationActionsActionServiceAssociation, scope constructs.Construct, id *string, config *AutomationActionsActionServiceAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/event_rule pagerduty_event_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/event_rule pagerduty_event_rule}.
 type EventRule interface {
 	cdktn.TerraformResource
 	ActionJson() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_EventRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/event_rule pagerduty_event_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/event_rule pagerduty_event_rule} Resource.
 func NewEventRule(scope constructs.Construct, id *string, config *EventRuleConfig) EventRule {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewEventRule(scope constructs.Construct, id *string, config *EventRuleConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/event_rule pagerduty_event_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/event_rule pagerduty_event_rule} Resource.
 func NewEventRule_Override(e EventRule, scope constructs.Construct, id *string, config *EventRuleConfig) {
 	_init_.Initialize()
 

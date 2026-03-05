@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/user_notification_rule pagerduty_user_notification_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/user_notification_rule pagerduty_user_notification_rule}.
 type UserNotificationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -398,7 +398,7 @@ func (j *jsiiProxy_UserNotificationRule) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
 func NewUserNotificationRule(scope constructs.Construct, id *string, config *UserNotificationRuleConfig) UserNotificationRule {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewUserNotificationRule(scope constructs.Construct, id *string, config *Use
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
 func NewUserNotificationRule_Override(u UserNotificationRule, scope constructs.Construct, id *string, config *UserNotificationRuleConfig) {
 	_init_.Initialize()
 

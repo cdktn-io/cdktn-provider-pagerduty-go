@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/ruleset_rule pagerduty_ruleset_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/ruleset_rule pagerduty_ruleset_rule}.
 type RulesetRule interface {
 	cdktn.TerraformResource
 	Actions() RulesetRuleActionsOutputReference
@@ -510,7 +510,7 @@ func (j *jsiiProxy_RulesetRule) VariableInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/ruleset_rule pagerduty_ruleset_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/ruleset_rule pagerduty_ruleset_rule} Resource.
 func NewRulesetRule(scope constructs.Construct, id *string, config *RulesetRuleConfig) RulesetRule {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewRulesetRule(scope constructs.Construct, id *string, config *RulesetRuleC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.2/docs/resources/ruleset_rule pagerduty_ruleset_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/ruleset_rule pagerduty_ruleset_rule} Resource.
 func NewRulesetRule_Override(r RulesetRule, scope constructs.Construct, id *string, config *RulesetRuleConfig) {
 	_init_.Initialize()
 
