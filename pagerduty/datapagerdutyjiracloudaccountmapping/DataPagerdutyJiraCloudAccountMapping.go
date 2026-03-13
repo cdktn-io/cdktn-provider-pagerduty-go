@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping}.
 type DataPagerdutyJiraCloudAccountMapping interface {
 	cdktn.TerraformDataSource
 	BaseUrl() *string
@@ -295,7 +295,7 @@ func (j *jsiiProxy_DataPagerdutyJiraCloudAccountMapping) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
 func NewDataPagerdutyJiraCloudAccountMapping(scope constructs.Construct, id *string, config *DataPagerdutyJiraCloudAccountMappingConfig) DataPagerdutyJiraCloudAccountMapping {
 	_init_.Initialize()
 
@@ -313,7 +313,7 @@ func NewDataPagerdutyJiraCloudAccountMapping(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/data-sources/jira_cloud_account_mapping pagerduty_jira_cloud_account_mapping} Data Source.
 func NewDataPagerdutyJiraCloudAccountMapping_Override(d DataPagerdutyJiraCloudAccountMapping, scope constructs.Construct, id *string, config *DataPagerdutyJiraCloudAccountMappingConfig) {
 	_init_.Initialize()
 

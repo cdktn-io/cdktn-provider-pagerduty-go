@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/automation_actions_runner pagerduty_automation_actions_runner}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/resources/automation_actions_runner pagerduty_automation_actions_runner}.
 type AutomationActionsRunner interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_AutomationActionsRunner) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
 func NewAutomationActionsRunner(scope constructs.Construct, id *string, config *AutomationActionsRunnerConfig) AutomationActionsRunner {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewAutomationActionsRunner(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.3/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
 func NewAutomationActionsRunner_Override(a AutomationActionsRunner, scope constructs.Construct, id *string, config *AutomationActionsRunnerConfig) {
 	_init_.Initialize()
 
