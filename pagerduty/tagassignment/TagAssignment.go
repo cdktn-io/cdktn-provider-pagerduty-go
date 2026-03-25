@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/resources/tag_assignment pagerduty_tag_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/resources/tag_assignment pagerduty_tag_assignment}.
 type TagAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -375,7 +375,7 @@ func (j *jsiiProxy_TagAssignment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
 func NewTagAssignment(scope constructs.Construct, id *string, config *TagAssignmentConfig) TagAssignment {
 	_init_.Initialize()
 
@@ -393,7 +393,7 @@ func NewTagAssignment(scope constructs.Construct, id *string, config *TagAssignm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.31.4/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
 func NewTagAssignment_Override(t TagAssignment, scope constructs.Construct, id *string, config *TagAssignmentConfig) {
 	_init_.Initialize()
 
