@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
 type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationServiceCacheVariableConfig) DataPagerdutyEventOrchestrationServiceCacheVariable {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationServiceCacheVariable_Override(d DataPagerdutyEventOrchestrationServiceCacheVariable, scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationServiceCacheVariableConfig) {
 	_init_.Initialize()
 

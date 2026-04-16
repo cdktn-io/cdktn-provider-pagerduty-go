@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/service_integration pagerduty_service_integration}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/service_integration pagerduty_service_integration}.
 type DataPagerdutyServiceIntegration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -318,7 +318,7 @@ func (j *jsiiProxy_DataPagerdutyServiceIntegration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
 func NewDataPagerdutyServiceIntegration(scope constructs.Construct, id *string, config *DataPagerdutyServiceIntegrationConfig) DataPagerdutyServiceIntegration {
 	_init_.Initialize()
 
@@ -336,7 +336,7 @@ func NewDataPagerdutyServiceIntegration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
 func NewDataPagerdutyServiceIntegration_Override(d DataPagerdutyServiceIntegration, scope constructs.Construct, id *string, config *DataPagerdutyServiceIntegrationConfig) {
 	_init_.Initialize()
 

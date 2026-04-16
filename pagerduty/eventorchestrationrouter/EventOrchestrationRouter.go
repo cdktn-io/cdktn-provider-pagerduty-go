@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/resources/event_orchestration_router pagerduty_event_orchestration_router}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/event_orchestration_router pagerduty_event_orchestration_router}.
 type EventOrchestrationRouter interface {
 	cdktn.TerraformResource
 	CatchAll() EventOrchestrationRouterCatchAllOutputReference
@@ -388,7 +388,7 @@ func (j *jsiiProxy_EventOrchestrationRouter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/resources/event_orchestration_router pagerduty_event_orchestration_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/event_orchestration_router pagerduty_event_orchestration_router} Resource.
 func NewEventOrchestrationRouter(scope constructs.Construct, id *string, config *EventOrchestrationRouterConfig) EventOrchestrationRouter {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewEventOrchestrationRouter(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/resources/event_orchestration_router pagerduty_event_orchestration_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/event_orchestration_router pagerduty_event_orchestration_router} Resource.
 func NewEventOrchestrationRouter_Override(e EventOrchestrationRouter, scope constructs.Construct, id *string, config *EventOrchestrationRouterConfig) {
 	_init_.Initialize()
 

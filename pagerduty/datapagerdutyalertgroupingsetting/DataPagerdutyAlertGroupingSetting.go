@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/alert_grouping_setting pagerduty_alert_grouping_setting}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/alert_grouping_setting pagerduty_alert_grouping_setting}.
 type DataPagerdutyAlertGroupingSetting interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -328,7 +328,7 @@ func (j *jsiiProxy_DataPagerdutyAlertGroupingSetting) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/alert_grouping_setting pagerduty_alert_grouping_setting} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/alert_grouping_setting pagerduty_alert_grouping_setting} Data Source.
 func NewDataPagerdutyAlertGroupingSetting(scope constructs.Construct, id *string, config *DataPagerdutyAlertGroupingSettingConfig) DataPagerdutyAlertGroupingSetting {
 	_init_.Initialize()
 
@@ -346,7 +346,7 @@ func NewDataPagerdutyAlertGroupingSetting(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.1/docs/data-sources/alert_grouping_setting pagerduty_alert_grouping_setting} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/alert_grouping_setting pagerduty_alert_grouping_setting} Data Source.
 func NewDataPagerdutyAlertGroupingSetting_Override(d DataPagerdutyAlertGroupingSetting, scope constructs.Construct, id *string, config *DataPagerdutyAlertGroupingSettingConfig) {
 	_init_.Initialize()
 
