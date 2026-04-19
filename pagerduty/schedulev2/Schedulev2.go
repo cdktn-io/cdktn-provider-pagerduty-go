@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2 pagerduty_schedulev2}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2 pagerduty_schedulev2}.
 type Schedulev2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_Schedulev2) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
 func NewSchedulev2(scope constructs.Construct, id *string, config *Schedulev2Config) Schedulev2 {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSchedulev2(scope constructs.Construct, id *string, config *Schedulev2Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
 func NewSchedulev2_Override(s Schedulev2, scope constructs.Construct, id *string, config *Schedulev2Config) {
 	_init_.Initialize()
 

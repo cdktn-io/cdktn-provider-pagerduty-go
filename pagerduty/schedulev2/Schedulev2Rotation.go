@@ -7,7 +7,7 @@ package schedulev2
 type Schedulev2Rotation struct {
 	// event block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2#event Schedulev2#event}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2#event Schedulev2#event}
 	Event interface{} `field:"optional" json:"event" yaml:"event"`
 }
 

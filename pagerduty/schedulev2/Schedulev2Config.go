@@ -24,23 +24,23 @@ type Schedulev2Config struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the schedule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2#name Schedulev2#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2#name Schedulev2#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The time zone of the schedule (IANA format, e.g. 'America/New_York').
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2#time_zone Schedulev2#time_zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2#time_zone Schedulev2#time_zone}
 	TimeZone *string `field:"required" json:"timeZone" yaml:"timeZone"`
 	// A description of the schedule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2#description Schedulev2#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2#description Schedulev2#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// rotation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2#rotation Schedulev2#rotation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2#rotation Schedulev2#rotation}
 	Rotation interface{} `field:"optional" json:"rotation" yaml:"rotation"`
 	// List of team IDs to associate with this schedule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/resources/schedulev2#teams Schedulev2#teams}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedulev2#teams Schedulev2#teams}
 	Teams *[]*string `field:"optional" json:"teams" yaml:"teams"`
 }
 

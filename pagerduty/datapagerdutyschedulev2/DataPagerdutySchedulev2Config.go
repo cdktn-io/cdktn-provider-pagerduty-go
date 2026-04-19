@@ -24,7 +24,7 @@ type DataPagerdutySchedulev2Config struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the schedule to search for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.2/docs/data-sources/schedulev2#name DataPagerdutySchedulev2#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedulev2#name DataPagerdutySchedulev2#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 
