@@ -5,14 +5,14 @@ package datapagerdutylicense
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutylicense/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutylicense/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/license pagerduty_license}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/license pagerduty_license}.
 type DataPagerdutyLicense interface {
 	cdktn.TerraformDataSource
 	AllocationsAvailable() *float64
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataPagerdutyLicense) ValidRoles() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/license pagerduty_license} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/license pagerduty_license} Data Source.
 func NewDataPagerdutyLicense(scope constructs.Construct, id *string, config *DataPagerdutyLicenseConfig) DataPagerdutyLicense {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataPagerdutyLicense(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/license pagerduty_license} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/license pagerduty_license} Data Source.
 func NewDataPagerdutyLicense_Override(d DataPagerdutyLicense, scope constructs.Construct, id *string, config *DataPagerdutyLicenseConfig) {
 	_init_.Initialize()
 

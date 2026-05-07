@@ -5,14 +5,14 @@ package datapagerdutyteams
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyteams/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyteams/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/teams pagerduty_teams}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/teams pagerduty_teams}.
 type DataPagerdutyTeams interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataPagerdutyTeams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/teams pagerduty_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/teams pagerduty_teams} Data Source.
 func NewDataPagerdutyTeams(scope constructs.Construct, id *string, config *DataPagerdutyTeamsConfig) DataPagerdutyTeams {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataPagerdutyTeams(scope constructs.Construct, id *string, config *DataP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/teams pagerduty_teams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/teams pagerduty_teams} Data Source.
 func NewDataPagerdutyTeams_Override(d DataPagerdutyTeams, scope constructs.Construct, id *string, config *DataPagerdutyTeamsConfig) {
 	_init_.Initialize()
 

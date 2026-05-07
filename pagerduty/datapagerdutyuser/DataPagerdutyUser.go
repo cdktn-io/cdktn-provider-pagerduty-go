@@ -5,14 +5,14 @@ package datapagerdutyuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyuser/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/user pagerduty_user}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/user pagerduty_user}.
 type DataPagerdutyUser interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -339,7 +339,7 @@ func (j *jsiiProxy_DataPagerdutyUser) TimeZone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/user pagerduty_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/user pagerduty_user} Data Source.
 func NewDataPagerdutyUser(scope constructs.Construct, id *string, config *DataPagerdutyUserConfig) DataPagerdutyUser {
 	_init_.Initialize()
 
@@ -357,7 +357,7 @@ func NewDataPagerdutyUser(scope constructs.Construct, id *string, config *DataPa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/user pagerduty_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/user pagerduty_user} Data Source.
 func NewDataPagerdutyUser_Override(d DataPagerdutyUser, scope constructs.Construct, id *string, config *DataPagerdutyUserConfig) {
 	_init_.Initialize()
 

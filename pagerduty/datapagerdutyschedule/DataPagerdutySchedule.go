@@ -5,14 +5,14 @@ package datapagerdutyschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedule pagerduty_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/schedule pagerduty_schedule}.
 type DataPagerdutySchedule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -284,7 +284,7 @@ func (j *jsiiProxy_DataPagerdutySchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedule pagerduty_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/schedule pagerduty_schedule} Data Source.
 func NewDataPagerdutySchedule(scope constructs.Construct, id *string, config *DataPagerdutyScheduleConfig) DataPagerdutySchedule {
 	_init_.Initialize()
 
@@ -302,7 +302,7 @@ func NewDataPagerdutySchedule(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedule pagerduty_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/schedule pagerduty_schedule} Data Source.
 func NewDataPagerdutySchedule_Override(d DataPagerdutySchedule, scope constructs.Construct, id *string, config *DataPagerdutyScheduleConfig) {
 	_init_.Initialize()
 

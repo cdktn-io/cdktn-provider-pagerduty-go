@@ -5,14 +5,14 @@ package tagassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/tagassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/tagassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/tag_assignment pagerduty_tag_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/tag_assignment pagerduty_tag_assignment}.
 type TagAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -375,7 +375,7 @@ func (j *jsiiProxy_TagAssignment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
 func NewTagAssignment(scope constructs.Construct, id *string, config *TagAssignmentConfig) TagAssignment {
 	_init_.Initialize()
 
@@ -393,7 +393,7 @@ func NewTagAssignment(scope constructs.Construct, id *string, config *TagAssignm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/tag_assignment pagerduty_tag_assignment} Resource.
 func NewTagAssignment_Override(t TagAssignment, scope constructs.Construct, id *string, config *TagAssignmentConfig) {
 	_init_.Initialize()
 

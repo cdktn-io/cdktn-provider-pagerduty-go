@@ -5,14 +5,14 @@ package automationactionsrunner
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/automationactionsrunner/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/automationactionsrunner/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/automation_actions_runner pagerduty_automation_actions_runner}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/automation_actions_runner pagerduty_automation_actions_runner}.
 type AutomationActionsRunner interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_AutomationActionsRunner) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
 func NewAutomationActionsRunner(scope constructs.Construct, id *string, config *AutomationActionsRunnerConfig) AutomationActionsRunner {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewAutomationActionsRunner(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/automation_actions_runner pagerduty_automation_actions_runner} Resource.
 func NewAutomationActionsRunner_Override(a AutomationActionsRunner, scope constructs.Construct, id *string, config *AutomationActionsRunnerConfig) {
 	_init_.Initialize()
 

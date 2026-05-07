@@ -5,14 +5,14 @@ package eventorchestrationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/eventorchestrationservice/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/eventorchestrationservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/event_orchestration_service pagerduty_event_orchestration_service}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/event_orchestration_service pagerduty_event_orchestration_service}.
 type EventOrchestrationService interface {
 	cdktn.TerraformResource
 	CatchAll() EventOrchestrationServiceCatchAllOutputReference
@@ -412,7 +412,7 @@ func (j *jsiiProxy_EventOrchestrationService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/event_orchestration_service pagerduty_event_orchestration_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/event_orchestration_service pagerduty_event_orchestration_service} Resource.
 func NewEventOrchestrationService(scope constructs.Construct, id *string, config *EventOrchestrationServiceConfig) EventOrchestrationService {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewEventOrchestrationService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/event_orchestration_service pagerduty_event_orchestration_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/event_orchestration_service pagerduty_event_orchestration_service} Resource.
 func NewEventOrchestrationService_Override(e EventOrchestrationService, scope constructs.Construct, id *string, config *EventOrchestrationServiceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package maintenancewindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/maintenancewindow/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/maintenancewindow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/maintenance_window pagerduty_maintenance_window}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/maintenance_window pagerduty_maintenance_window}.
 type MaintenanceWindow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_MaintenanceWindow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/maintenance_window pagerduty_maintenance_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/maintenance_window pagerduty_maintenance_window} Resource.
 func NewMaintenanceWindow(scope constructs.Construct, id *string, config *MaintenanceWindowConfig) MaintenanceWindow {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewMaintenanceWindow(scope constructs.Construct, id *string, config *Mainte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/maintenance_window pagerduty_maintenance_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/maintenance_window pagerduty_maintenance_window} Resource.
 func NewMaintenanceWindow_Override(m MaintenanceWindow, scope constructs.Construct, id *string, config *MaintenanceWindowConfig) {
 	_init_.Initialize()
 

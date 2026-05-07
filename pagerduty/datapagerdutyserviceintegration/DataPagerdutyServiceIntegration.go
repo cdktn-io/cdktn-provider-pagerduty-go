@@ -5,14 +5,14 @@ package datapagerdutyserviceintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyserviceintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyserviceintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/service_integration pagerduty_service_integration}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/service_integration pagerduty_service_integration}.
 type DataPagerdutyServiceIntegration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -318,7 +318,7 @@ func (j *jsiiProxy_DataPagerdutyServiceIntegration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
 func NewDataPagerdutyServiceIntegration(scope constructs.Construct, id *string, config *DataPagerdutyServiceIntegrationConfig) DataPagerdutyServiceIntegration {
 	_init_.Initialize()
 
@@ -336,7 +336,7 @@ func NewDataPagerdutyServiceIntegration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/service_integration pagerduty_service_integration} Data Source.
 func NewDataPagerdutyServiceIntegration_Override(d DataPagerdutyServiceIntegration, scope constructs.Construct, id *string, config *DataPagerdutyServiceIntegrationConfig) {
 	_init_.Initialize()
 

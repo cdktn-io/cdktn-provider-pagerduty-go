@@ -5,14 +5,14 @@ package schedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/schedule/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/schedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedule pagerduty_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/schedule pagerduty_schedule}.
 type Schedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_Schedule) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedule pagerduty_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/schedule pagerduty_schedule} Resource.
 func NewSchedule(scope constructs.Construct, id *string, config *ScheduleConfig) Schedule {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewSchedule(scope constructs.Construct, id *string, config *ScheduleConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/schedule pagerduty_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/schedule pagerduty_schedule} Resource.
 func NewSchedule_Override(s Schedule, scope constructs.Construct, id *string, config *ScheduleConfig) {
 	_init_.Initialize()
 

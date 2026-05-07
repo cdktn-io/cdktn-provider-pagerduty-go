@@ -5,14 +5,14 @@ package enablement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/enablement/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/enablement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/enablement pagerduty_enablement}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/enablement pagerduty_enablement}.
 type Enablement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_Enablement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/enablement pagerduty_enablement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/enablement pagerduty_enablement} Resource.
 func NewEnablement(scope constructs.Construct, id *string, config *EnablementConfig) Enablement {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewEnablement(scope constructs.Construct, id *string, config *EnablementCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/enablement pagerduty_enablement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/enablement pagerduty_enablement} Resource.
 func NewEnablement_Override(e Enablement, scope constructs.Construct, id *string, config *EnablementConfig) {
 	_init_.Initialize()
 

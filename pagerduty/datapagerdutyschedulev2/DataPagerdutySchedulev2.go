@@ -5,14 +5,14 @@ package datapagerdutyschedulev2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyschedulev2/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyschedulev2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedulev2 pagerduty_schedulev2}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/schedulev2 pagerduty_schedulev2}.
 type DataPagerdutySchedulev2 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -284,7 +284,7 @@ func (j *jsiiProxy_DataPagerdutySchedulev2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedulev2 pagerduty_schedulev2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/schedulev2 pagerduty_schedulev2} Data Source.
 func NewDataPagerdutySchedulev2(scope constructs.Construct, id *string, config *DataPagerdutySchedulev2Config) DataPagerdutySchedulev2 {
 	_init_.Initialize()
 
@@ -302,7 +302,7 @@ func NewDataPagerdutySchedulev2(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/schedulev2 pagerduty_schedulev2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/schedulev2 pagerduty_schedulev2} Data Source.
 func NewDataPagerdutySchedulev2_Override(d DataPagerdutySchedulev2, scope constructs.Construct, id *string, config *DataPagerdutySchedulev2Config) {
 	_init_.Initialize()
 

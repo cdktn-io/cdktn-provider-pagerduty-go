@@ -5,14 +5,14 @@ package teammembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/teammembership/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/teammembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/team_membership pagerduty_team_membership}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/team_membership pagerduty_team_membership}.
 type TeamMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -376,7 +376,7 @@ func (j *jsiiProxy_TeamMembership) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/team_membership pagerduty_team_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/team_membership pagerduty_team_membership} Resource.
 func NewTeamMembership(scope constructs.Construct, id *string, config *TeamMembershipConfig) TeamMembership {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewTeamMembership(scope constructs.Construct, id *string, config *TeamMembe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/team_membership pagerduty_team_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/team_membership pagerduty_team_membership} Resource.
 func NewTeamMembership_Override(t TeamMembership, scope constructs.Construct, id *string, config *TeamMembershipConfig) {
 	_init_.Initialize()
 

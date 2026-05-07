@@ -5,14 +5,14 @@ package datapagerdutybusinessservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutybusinessservice/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutybusinessservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/business_service pagerduty_business_service}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/business_service pagerduty_business_service}.
 type DataPagerdutyBusinessService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -295,7 +295,7 @@ func (j *jsiiProxy_DataPagerdutyBusinessService) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/business_service pagerduty_business_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/business_service pagerduty_business_service} Data Source.
 func NewDataPagerdutyBusinessService(scope constructs.Construct, id *string, config *DataPagerdutyBusinessServiceConfig) DataPagerdutyBusinessService {
 	_init_.Initialize()
 
@@ -313,7 +313,7 @@ func NewDataPagerdutyBusinessService(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/business_service pagerduty_business_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/business_service pagerduty_business_service} Data Source.
 func NewDataPagerdutyBusinessService_Override(d DataPagerdutyBusinessService, scope constructs.Construct, id *string, config *DataPagerdutyBusinessServiceConfig) {
 	_init_.Initialize()
 

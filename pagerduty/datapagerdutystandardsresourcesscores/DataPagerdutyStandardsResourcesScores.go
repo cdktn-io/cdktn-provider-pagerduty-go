@@ -5,14 +5,14 @@ package datapagerdutystandardsresourcesscores
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutystandardsresourcesscores/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutystandardsresourcesscores/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores}.
 type DataPagerdutyStandardsResourcesScores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -307,7 +307,7 @@ func (j *jsiiProxy_DataPagerdutyStandardsResourcesScores) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
 func NewDataPagerdutyStandardsResourcesScores(scope constructs.Construct, id *string, config *DataPagerdutyStandardsResourcesScoresConfig) DataPagerdutyStandardsResourcesScores {
 	_init_.Initialize()
 
@@ -325,7 +325,7 @@ func NewDataPagerdutyStandardsResourcesScores(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/standards_resources_scores pagerduty_standards_resources_scores} Data Source.
 func NewDataPagerdutyStandardsResourcesScores_Override(d DataPagerdutyStandardsResourcesScores, scope constructs.Construct, id *string, config *DataPagerdutyStandardsResourcesScoresConfig) {
 	_init_.Initialize()
 

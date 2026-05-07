@@ -5,14 +5,14 @@ package datapagerdutyincidenttype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyincidenttype/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyincidenttype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/incident_type pagerduty_incident_type}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/incident_type pagerduty_incident_type}.
 type DataPagerdutyIncidentType interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -339,7 +339,7 @@ func (j *jsiiProxy_DataPagerdutyIncidentType) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
 func NewDataPagerdutyIncidentType(scope constructs.Construct, id *string, config *DataPagerdutyIncidentTypeConfig) DataPagerdutyIncidentType {
 	_init_.Initialize()
 
@@ -357,7 +357,7 @@ func NewDataPagerdutyIncidentType(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/incident_type pagerduty_incident_type} Data Source.
 func NewDataPagerdutyIncidentType_Override(d DataPagerdutyIncidentType, scope constructs.Construct, id *string, config *DataPagerdutyIncidentTypeConfig) {
 	_init_.Initialize()
 

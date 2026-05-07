@@ -5,14 +5,14 @@ package datapagerdutyeventorchestrationservicecachevariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/datapagerdutyeventorchestrationservicecachevariable/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/datapagerdutyeventorchestrationservicecachevariable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
 type DataPagerdutyEventOrchestrationServiceCacheVariable interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationServiceCacheVariable) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationServiceCacheVariableConfig) DataPagerdutyEventOrchestrationServiceCacheVariable {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataPagerdutyEventOrchestrationServiceCacheVariable(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/data-sources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationServiceCacheVariable_Override(d DataPagerdutyEventOrchestrationServiceCacheVariable, scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationServiceCacheVariableConfig) {
 	_init_.Initialize()
 

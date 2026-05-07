@@ -5,14 +5,14 @@ package servicedependency
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/servicedependency/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/servicedependency/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/service_dependency pagerduty_service_dependency}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/service_dependency pagerduty_service_dependency}.
 type ServiceDependency interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_ServiceDependency) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/service_dependency pagerduty_service_dependency} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/service_dependency pagerduty_service_dependency} Resource.
 func NewServiceDependency(scope constructs.Construct, id *string, config *ServiceDependencyConfig) ServiceDependency {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewServiceDependency(scope constructs.Construct, id *string, config *Servic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/service_dependency pagerduty_service_dependency} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/service_dependency pagerduty_service_dependency} Resource.
 func NewServiceDependency_Override(s ServiceDependency, scope constructs.Construct, id *string, config *ServiceDependencyConfig) {
 	_init_.Initialize()
 

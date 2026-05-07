@@ -5,14 +5,14 @@ package automationactionsaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/automationactionsaction/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/automationactionsaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/automation_actions_action pagerduty_automation_actions_action}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/automation_actions_action pagerduty_automation_actions_action}.
 type AutomationActionsAction interface {
 	cdktn.TerraformResource
 	ActionClassification() *string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_AutomationActionsAction) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/automation_actions_action pagerduty_automation_actions_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/automation_actions_action pagerduty_automation_actions_action} Resource.
 func NewAutomationActionsAction(scope constructs.Construct, id *string, config *AutomationActionsActionConfig) AutomationActionsAction {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewAutomationActionsAction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/automation_actions_action pagerduty_automation_actions_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/automation_actions_action pagerduty_automation_actions_action} Resource.
 func NewAutomationActionsAction_Override(a AutomationActionsAction, scope constructs.Construct, id *string, config *AutomationActionsActionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package usernotificationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/usernotificationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/usernotificationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/user_notification_rule pagerduty_user_notification_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/user_notification_rule pagerduty_user_notification_rule}.
 type UserNotificationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -398,7 +398,7 @@ func (j *jsiiProxy_UserNotificationRule) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
 func NewUserNotificationRule(scope constructs.Construct, id *string, config *UserNotificationRuleConfig) UserNotificationRule {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewUserNotificationRule(scope constructs.Construct, id *string, config *Use
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/user_notification_rule pagerduty_user_notification_rule} Resource.
 func NewUserNotificationRule_Override(u UserNotificationRule, scope constructs.Construct, id *string, config *UserNotificationRuleConfig) {
 	_init_.Initialize()
 

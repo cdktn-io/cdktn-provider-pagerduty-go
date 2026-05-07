@@ -5,14 +5,14 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/provider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs pagerduty}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs pagerduty}.
 type PagerdutyProvider interface {
 	cdktn.TerraformProvider
 	Alias() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_PagerdutyProvider) UserTokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs pagerduty} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs pagerduty} Resource.
 func NewPagerdutyProvider(scope constructs.Construct, id *string, config *PagerdutyProviderConfig) PagerdutyProvider {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewPagerdutyProvider(scope constructs.Construct, id *string, config *Pagerd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs pagerduty} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs pagerduty} Resource.
 func NewPagerdutyProvider_Override(p PagerdutyProvider, scope constructs.Construct, id *string, config *PagerdutyProviderConfig) {
 	_init_.Initialize()
 

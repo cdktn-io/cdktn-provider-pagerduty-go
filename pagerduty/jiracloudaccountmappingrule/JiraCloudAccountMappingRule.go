@@ -5,14 +5,14 @@ package jiracloudaccountmappingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v15/jiracloudaccountmappingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v16/jiracloudaccountmappingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule}.
 type JiraCloudAccountMappingRule interface {
 	cdktn.TerraformResource
 	AccountMapping() *string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
 func NewJiraCloudAccountMappingRule(scope constructs.Construct, id *string, config *JiraCloudAccountMappingRuleConfig) JiraCloudAccountMappingRule {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewJiraCloudAccountMappingRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.3/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.32.4/docs/resources/jira_cloud_account_mapping_rule pagerduty_jira_cloud_account_mapping_rule} Resource.
 func NewJiraCloudAccountMappingRule_Override(j JiraCloudAccountMappingRule, scope constructs.Construct, id *string, config *JiraCloudAccountMappingRuleConfig) {
 	_init_.Initialize()
 
