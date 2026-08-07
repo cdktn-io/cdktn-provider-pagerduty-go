@@ -59,6 +59,10 @@ func (s *jsiiProxy_SlackConnection) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (s *jsiiProxy_SlackConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SlackConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SlackConnection) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (s *jsiiProxy_SlackConnection) validatePutConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SlackConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataPagerdutyTeamMembers) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataPagerdutyTeamMembers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataPagerdutyTeamMembers_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

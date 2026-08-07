@@ -59,6 +59,10 @@ func (r *jsiiProxy_ResponsePlay) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (r *jsiiProxy_ResponsePlay) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ResponsePlay) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_ResponsePlay) validatePutResponderParameters(value interface{
 }
 
 func (r *jsiiProxy_ResponsePlay) validatePutSubscriberParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_ResponsePlay) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariable) validateO
 	return nil
 }
 
+func (d *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataPagerdutyEventOrchestrationGlobalCacheVariable_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

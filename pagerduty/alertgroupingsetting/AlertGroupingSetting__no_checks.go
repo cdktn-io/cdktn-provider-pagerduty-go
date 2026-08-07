@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlertGroupingSetting) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_AlertGroupingSetting) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlertGroupingSetting) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AlertGroupingSetting) validateOverrideLogicalIdParameters(new
 }
 
 func (a *jsiiProxy_AlertGroupingSetting) validatePutConfigParameters(value *AlertGroupingSettingConfigA) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlertGroupingSetting) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

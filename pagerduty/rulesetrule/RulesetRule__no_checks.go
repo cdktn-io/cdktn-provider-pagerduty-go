@@ -59,6 +59,10 @@ func (r *jsiiProxy_RulesetRule) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (r *jsiiProxy_RulesetRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RulesetRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (r *jsiiProxy_RulesetRule) validatePutTimeFrameParameters(value *RulesetRul
 }
 
 func (r *jsiiProxy_RulesetRule) validatePutVariableParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RulesetRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (u *jsiiProxy_UserHandoffNotificationRule) validateInterpolationForAttribut
 	return nil
 }
 
+func (u *jsiiProxy_UserHandoffNotificationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (u *jsiiProxy_UserHandoffNotificationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (u *jsiiProxy_UserHandoffNotificationRule) validateOverrideLogicalIdParamet
 }
 
 func (u *jsiiProxy_UserHandoffNotificationRule) validatePutContactMethodParameters(value interface{}) error {
+	return nil
+}
+
+func (u *jsiiProxy_UserHandoffNotificationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

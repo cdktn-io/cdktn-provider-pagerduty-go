@@ -59,6 +59,10 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) validateInterpolationForAttribut
 	return nil
 }
 
+func (j *jsiiProxy_JiraCloudAccountMappingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_JiraCloudAccountMappingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (j *jsiiProxy_JiraCloudAccountMappingRule) validateOverrideLogicalIdParamet
 }
 
 func (j *jsiiProxy_JiraCloudAccountMappingRule) validatePutConfigParameters(value *JiraCloudAccountMappingRuleConfigA) error {
+	return nil
+}
+
+func (j *jsiiProxy_JiraCloudAccountMappingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

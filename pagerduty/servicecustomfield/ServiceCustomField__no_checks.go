@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceCustomField) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_ServiceCustomField) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceCustomField) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServiceCustomField) validateOverrideLogicalIdParameters(newLo
 }
 
 func (s *jsiiProxy_ServiceCustomField) validatePutFieldOptionParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceCustomField) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

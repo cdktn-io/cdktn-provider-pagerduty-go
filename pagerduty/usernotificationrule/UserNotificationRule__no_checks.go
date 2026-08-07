@@ -59,6 +59,10 @@ func (u *jsiiProxy_UserNotificationRule) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (u *jsiiProxy_UserNotificationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (u *jsiiProxy_UserNotificationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (u *jsiiProxy_UserNotificationRule) validateOverrideLogicalIdParameters(new
 }
 
 func (u *jsiiProxy_UserNotificationRule) validatePutContactMethodParameters(value *UserNotificationRuleContactMethod) error {
+	return nil
+}
+
+func (u *jsiiProxy_UserNotificationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

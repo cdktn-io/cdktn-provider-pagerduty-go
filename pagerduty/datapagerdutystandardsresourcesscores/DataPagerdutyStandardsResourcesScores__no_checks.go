@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataPagerdutyStandardsResourcesScores) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataPagerdutyStandardsResourcesScores_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

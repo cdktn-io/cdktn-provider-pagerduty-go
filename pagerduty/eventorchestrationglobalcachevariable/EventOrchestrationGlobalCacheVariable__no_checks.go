@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventOrchestrationGlobalCacheVariable) validateInterpolationF
 	return nil
 }
 
+func (e *jsiiProxy_EventOrchestrationGlobalCacheVariable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventOrchestrationGlobalCacheVariable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EventOrchestrationGlobalCacheVariable) validatePutConditionPa
 }
 
 func (e *jsiiProxy_EventOrchestrationGlobalCacheVariable) validatePutConfigurationParameters(value *EventOrchestrationGlobalCacheVariableConfiguration) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventOrchestrationGlobalCacheVariable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

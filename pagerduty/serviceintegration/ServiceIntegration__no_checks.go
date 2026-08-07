@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceIntegration) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_ServiceIntegration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceIntegration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_ServiceIntegration) validatePutEmailFilterParameters(value in
 }
 
 func (s *jsiiProxy_ServiceIntegration) validatePutEmailParserParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceIntegration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

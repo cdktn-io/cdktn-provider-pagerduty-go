@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventOrchestrationRouter) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_EventOrchestrationRouter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventOrchestrationRouter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EventOrchestrationRouter) validatePutCatchAllParameters(value
 }
 
 func (e *jsiiProxy_EventOrchestrationRouter) validatePutSetParameters(value *EventOrchestrationRouterSet) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventOrchestrationRouter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

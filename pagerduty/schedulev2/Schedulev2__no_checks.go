@@ -59,6 +59,10 @@ func (s *jsiiProxy_Schedulev2) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (s *jsiiProxy_Schedulev2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Schedulev2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_Schedulev2) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (s *jsiiProxy_Schedulev2) validatePutRotationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_Schedulev2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

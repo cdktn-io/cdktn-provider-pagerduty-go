@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataPagerdutyEventOrchestrations) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataPagerdutyEventOrchestrations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataPagerdutyEventOrchestrations_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

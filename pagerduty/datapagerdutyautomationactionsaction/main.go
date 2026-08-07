@@ -58,6 +58,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActionClassification", GoMethod: "ResetActionClassification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowInvocationFromEventOrchestration", GoMethod: "ResetAllowInvocationFromEventOrchestration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowInvocationManually", GoMethod: "ResetAllowInvocationManually"},
