@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/service pagerduty_service}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/service pagerduty_service}.
 type Service interface {
 	cdktn.TerraformResource
 	AcknowledgementTimeout() *string
@@ -757,7 +757,7 @@ func (j *jsiiProxy_Service) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/service pagerduty_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/service pagerduty_service} Resource.
 func NewService(scope constructs.Construct, id *string, config *ServiceConfig) Service {
 	_init_.Initialize()
 
@@ -775,7 +775,7 @@ func NewService(scope constructs.Construct, id *string, config *ServiceConfig) S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/service pagerduty_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/service pagerduty_service} Resource.
 func NewService_Override(s Service, scope constructs.Construct, id *string, config *ServiceConfig) {
 	_init_.Initialize()
 

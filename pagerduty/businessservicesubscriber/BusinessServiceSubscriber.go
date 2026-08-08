@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/business_service_subscriber pagerduty_business_service_subscriber}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/business_service_subscriber pagerduty_business_service_subscriber}.
 type BusinessServiceSubscriber interface {
 	cdktn.TerraformResource
 	BusinessServiceId() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_BusinessServiceSubscriber) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/business_service_subscriber pagerduty_business_service_subscriber} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/business_service_subscriber pagerduty_business_service_subscriber} Resource.
 func NewBusinessServiceSubscriber(scope constructs.Construct, id *string, config *BusinessServiceSubscriberConfig) BusinessServiceSubscriber {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewBusinessServiceSubscriber(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/business_service_subscriber pagerduty_business_service_subscriber} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/business_service_subscriber pagerduty_business_service_subscriber} Resource.
 func NewBusinessServiceSubscriber_Override(b BusinessServiceSubscriber, scope constructs.Construct, id *string, config *BusinessServiceSubscriberConfig) {
 	_init_.Initialize()
 

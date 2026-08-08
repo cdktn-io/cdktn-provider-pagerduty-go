@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/ruleset pagerduty_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/ruleset pagerduty_ruleset}.
 type DataPagerdutyRuleset interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataPagerdutyRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/ruleset pagerduty_ruleset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/ruleset pagerduty_ruleset} Data Source.
 func NewDataPagerdutyRuleset(scope constructs.Construct, id *string, config *DataPagerdutyRulesetConfig) DataPagerdutyRuleset {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataPagerdutyRuleset(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/ruleset pagerduty_ruleset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/ruleset pagerduty_ruleset} Data Source.
 func NewDataPagerdutyRuleset_Override(d DataPagerdutyRuleset, scope constructs.Construct, id *string, config *DataPagerdutyRulesetConfig) {
 	_init_.Initialize()
 

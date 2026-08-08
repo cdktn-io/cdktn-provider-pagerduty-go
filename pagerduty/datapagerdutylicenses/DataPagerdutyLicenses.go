@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/licenses pagerduty_licenses}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/licenses pagerduty_licenses}.
 type DataPagerdutyLicenses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataPagerdutyLicenses) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/licenses pagerduty_licenses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/licenses pagerduty_licenses} Data Source.
 func NewDataPagerdutyLicenses(scope constructs.Construct, id *string, config *DataPagerdutyLicensesConfig) DataPagerdutyLicenses {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataPagerdutyLicenses(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/licenses pagerduty_licenses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/licenses pagerduty_licenses} Data Source.
 func NewDataPagerdutyLicenses_Override(d DataPagerdutyLicenses, scope constructs.Construct, id *string, config *DataPagerdutyLicensesConfig) {
 	_init_.Initialize()
 

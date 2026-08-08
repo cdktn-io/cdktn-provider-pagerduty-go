@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
 type EventOrchestrationServiceCacheVariable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_EventOrchestrationServiceCacheVariable) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
 func NewEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *string, config *EventOrchestrationServiceCacheVariableConfig) EventOrchestrationServiceCacheVariable {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
 func NewEventOrchestrationServiceCacheVariable_Override(e EventOrchestrationServiceCacheVariable, scope constructs.Construct, id *string, config *EventOrchestrationServiceCacheVariableConfig) {
 	_init_.Initialize()
 

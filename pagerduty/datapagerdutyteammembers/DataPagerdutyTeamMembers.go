@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/team_members pagerduty_team_members}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/team_members pagerduty_team_members}.
 type DataPagerdutyTeamMembers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataPagerdutyTeamMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
 func NewDataPagerdutyTeamMembers(scope constructs.Construct, id *string, config *DataPagerdutyTeamMembersConfig) DataPagerdutyTeamMembers {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataPagerdutyTeamMembers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.34.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
 func NewDataPagerdutyTeamMembers_Override(d DataPagerdutyTeamMembers, scope constructs.Construct, id *string, config *DataPagerdutyTeamMembersConfig) {
 	_init_.Initialize()
 
