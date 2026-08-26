@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable}.
 type DataPagerdutyEventOrchestrationGlobalCacheVariable interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataPagerdutyEventOrchestrationGlobalCacheVariable) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationGlobalCacheVariable(scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationGlobalCacheVariableConfig) DataPagerdutyEventOrchestrationGlobalCacheVariable {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewDataPagerdutyEventOrchestrationGlobalCacheVariable(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/event_orchestration_global_cache_variable pagerduty_event_orchestration_global_cache_variable} Data Source.
 func NewDataPagerdutyEventOrchestrationGlobalCacheVariable_Override(d DataPagerdutyEventOrchestrationGlobalCacheVariable, scope constructs.Construct, id *string, config *DataPagerdutyEventOrchestrationGlobalCacheVariableConfig) {
 	_init_.Initialize()
 

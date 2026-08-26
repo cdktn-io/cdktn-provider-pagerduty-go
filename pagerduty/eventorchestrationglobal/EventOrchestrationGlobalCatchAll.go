@@ -7,7 +7,7 @@ package eventorchestrationglobal
 type EventOrchestrationGlobalCatchAll struct {
 	// actions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/event_orchestration_global#actions EventOrchestrationGlobal#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/event_orchestration_global#actions EventOrchestrationGlobal#actions}
 	Actions *EventOrchestrationGlobalCatchAllActions `field:"required" json:"actions" yaml:"actions"`
 }
 

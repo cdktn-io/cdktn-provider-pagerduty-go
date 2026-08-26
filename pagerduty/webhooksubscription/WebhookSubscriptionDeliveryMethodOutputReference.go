@@ -34,6 +34,7 @@ type WebhookSubscriptionDeliveryMethodOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Secret() *string
 	TemporarilyDisabled() interface{}
 	SetTemporarilyDisabled(val interface{})
 	TemporarilyDisabledInput() interface{}
@@ -160,6 +161,16 @@ func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) InternalVal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WebhookSubscriptionDeliveryMethodOutputReference) Secret() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secret",
 		&returns,
 	)
 	return returns

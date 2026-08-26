@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value}.
 type DataPagerdutyServiceCustomFieldValue interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataPagerdutyServiceCustomFieldValue) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
 func NewDataPagerdutyServiceCustomFieldValue(scope constructs.Construct, id *string, config *DataPagerdutyServiceCustomFieldValueConfig) DataPagerdutyServiceCustomFieldValue {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataPagerdutyServiceCustomFieldValue(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/service_custom_field_value pagerduty_service_custom_field_value} Data Source.
 func NewDataPagerdutyServiceCustomFieldValue_Override(d DataPagerdutyServiceCustomFieldValue, scope constructs.Construct, id *string, config *DataPagerdutyServiceCustomFieldValueConfig) {
 	_init_.Initialize()
 

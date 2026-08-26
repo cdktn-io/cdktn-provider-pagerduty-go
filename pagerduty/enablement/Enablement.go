@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/enablement pagerduty_enablement}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/enablement pagerduty_enablement}.
 type Enablement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_Enablement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/enablement pagerduty_enablement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/enablement pagerduty_enablement} Resource.
 func NewEnablement(scope constructs.Construct, id *string, config *EnablementConfig) Enablement {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewEnablement(scope constructs.Construct, id *string, config *EnablementCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.35.0/docs/resources/enablement pagerduty_enablement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/enablement pagerduty_enablement} Resource.
 func NewEnablement_Override(e Enablement, scope constructs.Construct, id *string, config *EnablementConfig) {
 	_init_.Initialize()
 
