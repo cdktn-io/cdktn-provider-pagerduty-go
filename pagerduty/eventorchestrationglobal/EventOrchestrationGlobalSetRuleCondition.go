@@ -5,7 +5,7 @@ package eventorchestrationglobal
 
 
 type EventOrchestrationGlobalSetRuleCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/event_orchestration_global#expression EventOrchestrationGlobal#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/event_orchestration_global#expression EventOrchestrationGlobal#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
 }
 

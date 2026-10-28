@@ -5,14 +5,14 @@ package datapagerdutyincidentworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/datapagerdutyincidentworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/datapagerdutyincidentworkflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/incident_workflow pagerduty_incident_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/incident_workflow pagerduty_incident_workflow}.
 type DataPagerdutyIncidentWorkflow interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataPagerdutyIncidentWorkflow) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/incident_workflow pagerduty_incident_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/incident_workflow pagerduty_incident_workflow} Data Source.
 func NewDataPagerdutyIncidentWorkflow(scope constructs.Construct, id *string, config *DataPagerdutyIncidentWorkflowConfig) DataPagerdutyIncidentWorkflow {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataPagerdutyIncidentWorkflow(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/incident_workflow pagerduty_incident_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/incident_workflow pagerduty_incident_workflow} Data Source.
 func NewDataPagerdutyIncidentWorkflow_Override(d DataPagerdutyIncidentWorkflow, scope constructs.Construct, id *string, config *DataPagerdutyIncidentWorkflowConfig) {
 	_init_.Initialize()
 

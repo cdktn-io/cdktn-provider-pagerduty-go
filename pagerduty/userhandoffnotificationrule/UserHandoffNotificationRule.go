@@ -5,14 +5,14 @@ package userhandoffnotificationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/userhandoffnotificationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/userhandoffnotificationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/user_handoff_notification_rule pagerduty_user_handoff_notification_rule}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/user_handoff_notification_rule pagerduty_user_handoff_notification_rule}.
 type UserHandoffNotificationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_UserHandoffNotificationRule) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/user_handoff_notification_rule pagerduty_user_handoff_notification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/user_handoff_notification_rule pagerduty_user_handoff_notification_rule} Resource.
 func NewUserHandoffNotificationRule(scope constructs.Construct, id *string, config *UserHandoffNotificationRuleConfig) UserHandoffNotificationRule {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewUserHandoffNotificationRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/user_handoff_notification_rule pagerduty_user_handoff_notification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/user_handoff_notification_rule pagerduty_user_handoff_notification_rule} Resource.
 func NewUserHandoffNotificationRule_Override(u UserHandoffNotificationRule, scope constructs.Construct, id *string, config *UserHandoffNotificationRuleConfig) {
 	_init_.Initialize()
 

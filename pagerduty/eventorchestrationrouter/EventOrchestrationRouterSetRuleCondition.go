@@ -5,7 +5,7 @@ package eventorchestrationrouter
 
 
 type EventOrchestrationRouterSetRuleCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/event_orchestration_router#expression EventOrchestrationRouter#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/event_orchestration_router#expression EventOrchestrationRouter#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
 }
 

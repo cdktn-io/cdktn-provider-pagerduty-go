@@ -5,14 +5,14 @@ package datapagerdutyteammembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/datapagerdutyteammembers/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/datapagerdutyteammembers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/team_members pagerduty_team_members}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/team_members pagerduty_team_members}.
 type DataPagerdutyTeamMembers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataPagerdutyTeamMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
 func NewDataPagerdutyTeamMembers(scope constructs.Construct, id *string, config *DataPagerdutyTeamMembersConfig) DataPagerdutyTeamMembers {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataPagerdutyTeamMembers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/team_members pagerduty_team_members} Data Source.
 func NewDataPagerdutyTeamMembers_Override(d DataPagerdutyTeamMembers, scope constructs.Construct, id *string, config *DataPagerdutyTeamMembersConfig) {
 	_init_.Initialize()
 

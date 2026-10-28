@@ -5,14 +5,14 @@ package alertgroupingsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/alertgroupingsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/alertgroupingsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/alert_grouping_setting pagerduty_alert_grouping_setting}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/alert_grouping_setting pagerduty_alert_grouping_setting}.
 type AlertGroupingSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AlertGroupingSetting) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/alert_grouping_setting pagerduty_alert_grouping_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/alert_grouping_setting pagerduty_alert_grouping_setting} Resource.
 func NewAlertGroupingSetting(scope constructs.Construct, id *string, config *AlertGroupingSettingConfig) AlertGroupingSetting {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewAlertGroupingSetting(scope constructs.Construct, id *string, config *Ale
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/alert_grouping_setting pagerduty_alert_grouping_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/alert_grouping_setting pagerduty_alert_grouping_setting} Resource.
 func NewAlertGroupingSetting_Override(a AlertGroupingSetting, scope constructs.Construct, id *string, config *AlertGroupingSettingConfig) {
 	_init_.Initialize()
 

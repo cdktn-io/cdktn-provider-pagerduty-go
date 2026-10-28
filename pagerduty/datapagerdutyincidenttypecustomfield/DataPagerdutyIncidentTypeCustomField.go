@@ -5,14 +5,14 @@ package datapagerdutyincidenttypecustomfield
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/datapagerdutyincidenttypecustomfield/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/datapagerdutyincidenttypecustomfield/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/incident_type_custom_field pagerduty_incident_type_custom_field}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/incident_type_custom_field pagerduty_incident_type_custom_field}.
 type DataPagerdutyIncidentTypeCustomField interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -430,7 +430,7 @@ func (j *jsiiProxy_DataPagerdutyIncidentTypeCustomField) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/incident_type_custom_field pagerduty_incident_type_custom_field} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/incident_type_custom_field pagerduty_incident_type_custom_field} Data Source.
 func NewDataPagerdutyIncidentTypeCustomField(scope constructs.Construct, id *string, config *DataPagerdutyIncidentTypeCustomFieldConfig) DataPagerdutyIncidentTypeCustomField {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewDataPagerdutyIncidentTypeCustomField(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/incident_type_custom_field pagerduty_incident_type_custom_field} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/incident_type_custom_field pagerduty_incident_type_custom_field} Data Source.
 func NewDataPagerdutyIncidentTypeCustomField_Override(d DataPagerdutyIncidentTypeCustomField, scope constructs.Construct, id *string, config *DataPagerdutyIncidentTypeCustomFieldConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package extensionservicenow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/extensionservicenow/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/extensionservicenow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/extension_servicenow pagerduty_extension_servicenow}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/extension_servicenow pagerduty_extension_servicenow}.
 type ExtensionServicenow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -646,7 +646,7 @@ func (j *jsiiProxy_ExtensionServicenow) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/extension_servicenow pagerduty_extension_servicenow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/extension_servicenow pagerduty_extension_servicenow} Resource.
 func NewExtensionServicenow(scope constructs.Construct, id *string, config *ExtensionServicenowConfig) ExtensionServicenow {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewExtensionServicenow(scope constructs.Construct, id *string, config *Exte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/extension_servicenow pagerduty_extension_servicenow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/extension_servicenow pagerduty_extension_servicenow} Resource.
 func NewExtensionServicenow_Override(e ExtensionServicenow, scope constructs.Construct, id *string, config *ExtensionServicenowConfig) {
 	_init_.Initialize()
 

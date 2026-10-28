@@ -5,14 +5,14 @@ package eventorchestrationservicecachevariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/eventorchestrationservicecachevariable/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/eventorchestrationservicecachevariable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable}.
 type EventOrchestrationServiceCacheVariable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_EventOrchestrationServiceCacheVariable) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
 func NewEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *string, config *EventOrchestrationServiceCacheVariableConfig) EventOrchestrationServiceCacheVariable {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewEventOrchestrationServiceCacheVariable(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/event_orchestration_service_cache_variable pagerduty_event_orchestration_service_cache_variable} Resource.
 func NewEventOrchestrationServiceCacheVariable_Override(e EventOrchestrationServiceCacheVariable, scope constructs.Construct, id *string, config *EventOrchestrationServiceCacheVariableConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datapagerdutystandards
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/datapagerdutystandards/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/datapagerdutystandards/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/standards pagerduty_standards}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/standards pagerduty_standards}.
 type DataPagerdutyStandards interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataPagerdutyStandards) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/standards pagerduty_standards} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/standards pagerduty_standards} Data Source.
 func NewDataPagerdutyStandards(scope constructs.Construct, id *string, config *DataPagerdutyStandardsConfig) DataPagerdutyStandards {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataPagerdutyStandards(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/data-sources/standards pagerduty_standards} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/data-sources/standards pagerduty_standards} Data Source.
 func NewDataPagerdutyStandards_Override(d DataPagerdutyStandards, scope constructs.Construct, id *string, config *DataPagerdutyStandardsConfig) {
 	_init_.Initialize()
 

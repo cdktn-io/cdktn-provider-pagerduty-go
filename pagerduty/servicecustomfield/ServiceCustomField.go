@@ -5,14 +5,14 @@ package servicecustomfield
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/servicecustomfield/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/servicecustomfield/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/service_custom_field pagerduty_service_custom_field}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/service_custom_field pagerduty_service_custom_field}.
 type ServiceCustomField interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -576,7 +576,7 @@ func (j *jsiiProxy_ServiceCustomField) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/service_custom_field pagerduty_service_custom_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/service_custom_field pagerduty_service_custom_field} Resource.
 func NewServiceCustomField(scope constructs.Construct, id *string, config *ServiceCustomFieldConfig) ServiceCustomField {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewServiceCustomField(scope constructs.Construct, id *string, config *Servi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/service_custom_field pagerduty_service_custom_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/service_custom_field pagerduty_service_custom_field} Resource.
 func NewServiceCustomField_Override(s ServiceCustomField, scope constructs.Construct, id *string, config *ServiceCustomFieldConfig) {
 	_init_.Initialize()
 

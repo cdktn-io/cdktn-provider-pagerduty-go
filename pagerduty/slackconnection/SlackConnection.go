@@ -5,14 +5,14 @@ package slackconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/slackconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/slackconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/slack_connection pagerduty_slack_connection}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/slack_connection pagerduty_slack_connection}.
 type SlackConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_SlackConnection) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/slack_connection pagerduty_slack_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/slack_connection pagerduty_slack_connection} Resource.
 func NewSlackConnection(scope constructs.Construct, id *string, config *SlackConnectionConfig) SlackConnection {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewSlackConnection(scope constructs.Construct, id *string, config *SlackCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/slack_connection pagerduty_slack_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/slack_connection pagerduty_slack_connection} Resource.
 func NewSlackConnection_Override(s SlackConnection, scope constructs.Construct, id *string, config *SlackConnectionConfig) {
 	_init_.Initialize()
 

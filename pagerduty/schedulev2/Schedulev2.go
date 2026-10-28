@@ -5,14 +5,14 @@ package schedulev2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v17/schedulev2/internal"
+	"github.com/cdktn-io/cdktn-provider-pagerduty-go/pagerduty/v18/schedulev2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/schedulev2 pagerduty_schedulev2}.
+// Represents a {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/schedulev2 pagerduty_schedulev2}.
 type Schedulev2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_Schedulev2) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
 func NewSchedulev2(scope constructs.Construct, id *string, config *Schedulev2Config) Schedulev2 {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewSchedulev2(scope constructs.Construct, id *string, config *Schedulev2Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.36.0/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/pagerduty/pagerduty/3.37.0/docs/resources/schedulev2 pagerduty_schedulev2} Resource.
 func NewSchedulev2_Override(s Schedulev2, scope constructs.Construct, id *string, config *Schedulev2Config) {
 	_init_.Initialize()
 
